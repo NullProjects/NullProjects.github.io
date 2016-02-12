@@ -1,0 +1,137 @@
+/********************************************************
+********* This website was created by Cybergig22 ********
+*********    The template is free to use and     ********
+*********      was constructed from partial      ********
+*********  OpenElement use. However things were  ********
+*********   reconstructed and is ongoing under   ********
+*********        heavy development work.         ********
+*********************************************************/
+
+/********************************************************
+*********            MAIN BODY SECTION           ********
+*********************************************************/
+/* Body CSS */
+body {
+    background-color: #ccffcc;
+} 
+a:link, a:visited {
+/*
+    background-color: #66ffff;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+*/
+}
+
+a:hover, a:active {
+/*
+    background-color: white;
+*/
+}
+
+a.tnav{
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;	
+}
+
+/********************************************************
+*********            LOGIN SECTION               ********
+*********************************************************/
+
+
+/********************************************************
+*********            HEADER SECTION              ********
+*********************************************************/
+
+/********************************************************
+*********        TABLE TOP LINKS SECTION         ********
+*********************************************************/
+/* Table Top Links */
+.TTLinks{
+
+	
+}
+.L1T{
+	margin: auto;
+	width:112.5px;
+	text-align:center;
+	background-color: white;
+	a:hover, 
+	aactive:white;
+	
+}
+.L2T{
+	margin: auto;
+	width:112.5px;
+	text-align:center;
+	background-color: white;	
+	
+}
+.L3T{
+	margin: auto;
+	width:112.5px;
+	text-align:center;
+	background-color: white;
+	
+}
+.L4T{
+	margin: auto;
+	width:112.5px;
+	text-align:center;
+	background-color: white;
+	
+}
+.L5T{
+	margin: auto;
+	width:112.5px;
+	text-align:center;
+	background-color: white;	
+	
+}
+.L6T{
+	margin: auto;
+	width:112.5px;
+	text-align:center;
+	background-color: white;
+	
+}
+.L7T{
+	margin: auto;
+	width:112.5px;
+	text-align:center;
+	background-color: white;
+	
+}
+.L8T{
+	margin: auto;
+	width:112.5px;
+	text-align:center;
+	background-color: white;
+	
+}
+/********************************************************
+*********      BODY AND NAVIGATION SECTION       ********
+*********************************************************/
+/* Navigation left CSS nav1*/
+/* Content CSS */
+/* Navigation right CSS nav2*/
+
+
+/********************************************************
+*********            FOOTER SECTION              ********
+*********************************************************/
+/* Footer CSS */
+/* Footer Links CSS */
+/* Footer Images CSS */
+/********************************************************
+*********          COPYRIGHT SECTION             ********
+*********************************************************/
+/* Copyright CSS */
+
+/********************************************************
+*********          END OF CSS CONTENT            ********
+*********************************************************/
