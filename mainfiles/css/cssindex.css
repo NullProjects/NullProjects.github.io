@@ -37,6 +37,14 @@ a.tnav{
     text-decoration: none;
     display: inline-block;	
 }
+a.registerl{
+    background-color: #ffffff;
+    color: #000000;
+    padding:6px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+}
 
 /********************************************************
 *********            LOGIN SECTION               ********
