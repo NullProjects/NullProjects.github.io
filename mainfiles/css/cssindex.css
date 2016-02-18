@@ -14,31 +14,31 @@
 body {
     background-color: #ccffcc;
 	font-size:12px;
-} 
+}
+.website-wrap{
+	border: 1px;
+	border-style: solid;
+	border-collapse: collapse;
+	width: 900px;
+	border-bottom-style:none;
+}
+/* Link CSS */
+/*
 a:link, a:visited {
     color: #000000;
     text-decoration: none;
-
 }
-
 a:hover, a:active {
-
     background-color: #1170c9;
-
 }
-
-a.tnav{
-    background-color: #ffffff;
-    color: #000000;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;	
+*/
+a.socialicot:link,a.socialicot:visited{
+	
 }
-a.snav{
-	color: #000000;
-	text-decoration: none;
+a.socialicot:hover,a.socialicot:active{
+	
 }
-a.registerl{
+a.registerl:link, a.register1:visited{
     background-color: #ffffff;
     color: #000000;
     padding:6px;
@@ -46,11 +46,43 @@ a.registerl{
     text-decoration: none;
     display: inline-block;
 }
+a.register1:hover, a.register1:active{
+	
+}
+a.tnav:link, a.tnav:visited{
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	width:100%;
+}
+a.tnav:hover, a.tnav:active {
+	background-color: #000000;
+	color: #ffffff;
+}
+a.snav:link, a.snav:visited{
+	color: #000000;
+	text-decoration: none;
+	display: inline-block;
+	width:100%;
+}
+a.snav:hover, a.snav:active{
+	background-color: #1170c9;
+	width:100%;
+	text-decoration: none;
+}
+a.socialicob:link,a.socialicob:visited{
+	
+}
+a.socialicob:hover,a.socialicob:active{
+	
+}
+
 
 /********************************************************
 *********            LOGIN SECTION               ********
 *********************************************************/
-
 
 /********************************************************
 *********            HEADER SECTION              ********
@@ -60,24 +92,64 @@ a.registerl{
 *********        TABLE TOP LINKS SECTION         ********
 *********************************************************/
 /* Table Top Links */
-.TTLinks{
 
-	
+.tnav-wrap{
+	height:35px;
+	border: 1px;
+	border-style: solid;
+	border-collapse: collapse;
+	border-left-style:none;
+	border-right-style:none;
+	padding:0px;
+}
+.TTLinks{
+	border-left-style:none;
+	padding:0px;
+}
+
+td.L1T:hover{
+	background-color:#000000;
+	vertical-align:center;
+	border-left-style:none;
+}
+td.L2T:hover{
+	background-color:#000000;	
+}
+td.L3T:hover{
+	background-color:#000000;	
+}
+td.L4T:hover{
+	background-color:#000000;	
+}
+td.L5T:hover{
+	background-color:#000000;	
+}
+td.L6T:hover{
+	background-color:#000000;	
+}
+td.L7T:hover{
+	background-color:#000000;	
+}
+td.L8T:hover{
+	background-color:#000000;
+	border-right-style:none;	
 }
 .L1T{
 	margin: auto;
 	width:112.5px;
+	border-left-style:none;
 	text-align:center;
 	background-color: white;
-	a:hover, 
-	aactive:white;
+	vertical-align:center;
+
 	
 }
 .L2T{
 	margin: auto;
 	width:112.5px;
 	text-align:center;
-	background-color: white;	
+	background-color: white;
+
 	
 }
 .L3T{
@@ -85,42 +157,43 @@ a.registerl{
 	width:112.5px;
 	text-align:center;
 	background-color: white;
-	
+
 }
 .L4T{
 	margin: auto;
 	width:112.5px;
 	text-align:center;
 	background-color: white;
-	
+
 }
 .L5T{
 	margin: auto;
 	width:112.5px;
 	text-align:center;
 	background-color: white;	
-	
+
 }
 .L6T{
 	margin: auto;
 	width:112.5px;
 	text-align:center;
 	background-color: white;
-	
+
 }
 .L7T{
 	margin: auto;
 	width:112.5px;
 	text-align:center;
 	background-color: white;
-	
+
 }
 .L8T{
 	margin: auto;
 	width:112.5px;
 	text-align:center;
 	background-color: white;
-	
+	border-right-style:none;
+
 }
 /********************************************************
 *********      BODY AND NAVIGATION SECTION       ********
@@ -128,12 +201,39 @@ a.registerl{
 /* Navigation left CSS nav1*/
 /* Content CSS */
 /* Navigation right CSS nav2*/
-
+.snav_wrap{
+	width: 100%;
+	border: 1px;
+	border-style: solid;
+	border-collapse: collapse;
+	border-left-style: none;
+	border-top-style: none;
+	padding-top:0px;
+	padding:0px;
+	margin:0px;
+	margin-top:0px;
+}
+.snav_title{
+	background-color:#ffffff;
+	height:20px;
+	border-collapse: collapse;
+	border-left-style: none;
+	border-top-style: none;
+	border-style: solid;
+	border: 1px;
+}
 
 /********************************************************
 *********            FOOTER SECTION              ********
 *********************************************************/
 /* Footer CSS */
+.footer-wrap{
+	border: 1px;
+	border-style: solid;
+	border-collapse: collapse;
+	width: 900px;
+	border-top-style:none;
+}
 /* Footer Links CSS */
 /* Footer Images CSS */
 /********************************************************
