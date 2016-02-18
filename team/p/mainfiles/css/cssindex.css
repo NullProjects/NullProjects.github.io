@@ -13,18 +13,21 @@
 /* Body CSS */
 body {
     background-color: #ccffcc;
-	font-size:12px;
 } 
 a:link, a:visited {
+/*
+    background-color: #66ffff;
     color: #000000;
+    text-align: center;
     text-decoration: none;
-
+    display: inline-block;
+*/
 }
 
 a:hover, a:active {
-
-    background-color: #1170c9;
-
+/*
+    background-color: white;
+*/
 }
 
 a.tnav{
@@ -33,10 +36,6 @@ a.tnav{
     text-align: center;
     text-decoration: none;
     display: inline-block;	
-}
-a.snav{
-	color: #000000;
-	text-decoration: none;
 }
 a.registerl{
     background-color: #ffffff;
