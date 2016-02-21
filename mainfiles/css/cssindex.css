@@ -68,7 +68,8 @@ a.snav:link, a.snav:visited{
 	width:100%;
 }
 a.snav:hover, a.snav:active{
-	background-color: #1170c9;
+	background-color: #000000;
+	color: #ffffff;
 	width:100%;
 	text-decoration: none;
 }
@@ -149,6 +150,8 @@ td.L8T:hover{
 	width:112.5px;
 	text-align:center;
 	background-color: white;
+	border:1px;
+	border-style: solid;
 
 	
 }
@@ -157,35 +160,40 @@ td.L8T:hover{
 	width:112.5px;
 	text-align:center;
 	background-color: white;
-
+	border:1px;
+	border-style: solid;
 }
 .L4T{
 	margin: auto;
 	width:112.5px;
 	text-align:center;
 	background-color: white;
-
+	border:1px;
+	border-style: solid;
 }
 .L5T{
 	margin: auto;
 	width:112.5px;
 	text-align:center;
 	background-color: white;	
-
+	border:1px;
+	border-style: solid;
 }
 .L6T{
 	margin: auto;
 	width:112.5px;
 	text-align:center;
 	background-color: white;
-
+	border:1px;
+	border-style: solid;
 }
 .L7T{
 	margin: auto;
 	width:112.5px;
 	text-align:center;
 	background-color: white;
-
+	border:1px;
+	border-style: solid;
 }
 .L8T{
 	margin: auto;
@@ -221,6 +229,10 @@ td.L8T:hover{
 	border-top-style: none;
 	border-style: solid;
 	border: 1px;
+	border-bottom-style:solid;
+}
+.snav_body{
+	background-color: #ffffff;
 }
 
 /********************************************************
