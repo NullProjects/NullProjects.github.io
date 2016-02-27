@@ -23,6 +23,7 @@ body {
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1'); /* for IE */
 	background: linear-gradient(0deg, #FEFEFE 0, #247BBD 100%);/* W3C */
 	background-repeat:none;
+	height:100%;
 	font-size:12px;
 }
 .website-wrap{
@@ -30,7 +31,8 @@ body {
 	border-style: solid;
 	border-collapse: collapse;
 	width: 900px;
-	border-bottom-style:none;
+	border-top-style:none;
+	background-color:#ffffff;
 }
 /* Link CSS */
 /*
@@ -94,10 +96,25 @@ a.socialicob:hover,a.socialicob:active{
 /********************************************************
 *********            LOGIN SECTION               ********
 *********************************************************/
+.login-wrap{
+	background-color: #247BBD;
+	width: 100%;
+	height: 40px;
+	padding:0px;
+}
+.login-wrap-social{
+	width: 60%;
+}
+
 
 /********************************************************
 *********            HEADER SECTION              ********
 *********************************************************/
+.header-wrap{
+	background-color:#ffffff;
+	width: 100%;
+	height: 130px;
+}
 
 /********************************************************
 *********        TABLE TOP LINKS SECTION         ********
@@ -238,11 +255,16 @@ td.L8T:hover{
 /********************************************************
 *********      BODY AND NAVIGATION SECTION       ********
 *********************************************************/
-/* Navigation left CSS nav1*/
+/* Navigation & Content BG Fill*/
+.scbgfill{
+	background-color:D6D6D6;
+	width:100%;
+}
 /* Content CSS */
 .content-wrap{
 	background-color:#D6D6D6;
-	width: 900px;
+	width: 65%; /* Value could be 65% or 100% */
+	vertical-align: top;
 }
 /* Under Construction Notice CSS */
 .uc01{
@@ -262,43 +284,71 @@ td.L8T:hover{
 }
 /* Navigation right CSS nav2*/
 .snav_wrap{
-	width: 100%;
+	width: 10%;
 	border: 1px;
 	border-style: solid;
 	border-collapse: collapse;
 	border-left-style: none;
 	border-top-style: none;
 	padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
 	padding:0px;
 	margin:0px;
 	margin-top:0px;
+	vertical-align: top;
+	background-color:#ffffff;
 }
 .snav_title{
 	background-color:#ffffff;
+	width:100%;
 	height:20px;
 	border-collapse: collapse;
 	border-left-style: none;
 	border-top-style: none;
-	border-style: solid;
+	border-right-style: none;
 	border: 1px;
 	border-bottom-style:solid;
+	padding:0px;
+	margin:0px;
+	margin-top:0px;
 }
 .snav_body{
 	background-color: #ffffff;
+	padding:0px;
 }
 
 /********************************************************
 *********            FOOTER SECTION              ********
 *********************************************************/
 /* Footer CSS */
+.footer-wrap-main{
+	width:100%;
+	vertical-align:top;
+	background-color: #30A4FC;
+}
 .footer-wrap{
 	border: 1px;
 	border-style: solid;
 	border-collapse: collapse;
-	width: 900px;
+	width: 100%;
 	border-top-style:none;
+	border-left-style:none;
+	border-right-style:none;
+	background-color: #30A4FC;
+}
+.footer-wrap-bg{
+	background-color: #30A4FC;
+}
+.footer-wrap-bg2{
+	background-color: #66ffff;
+	width:65%;
 }
 /* Footer Links CSS */
+.footer-links-wrap{
+	width: 95%;
+	background-color: #cc99ff;
+}
 /* Footer Images CSS */
 /********************************************************
 *********          COPYRIGHT SECTION             ********
