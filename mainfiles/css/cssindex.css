@@ -12,7 +12,17 @@
 *********************************************************/
 /* Body CSS */
 body {
-    background-color: #ccffcc;
+/*    background-color: #ccffcc;
+*/
+	background-color: #ffffff;
+	background: -moz-linear-gradient(0deg, #FEFEFE 0, #247BBD 100%);/* FF3.6+ */
+	background: -webkit-gradient(linear, 0deg, color-stop(0, FEFEFE), color-stop(100%, 247BBD));/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(0deg, #FEFEFE 0, #247BBD 100%);/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(0deg, #FEFEFE 0, #247BBD 100%);/* Opera 11.10+ */
+	background: -ms-linear-gradient(0deg, #FEFEFE 0, #247BBD 100%);/* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1'); /* for IE */
+	background: linear-gradient(0deg, #FEFEFE 0, #247BBD 100%);/* W3C */
+	background-repeat:none;
 	font-size:12px;
 }
 .website-wrap{
@@ -58,7 +68,7 @@ a.tnav:link, a.tnav:visited{
 	width:100%;
 }
 a.tnav:hover, a.tnav:active {
-	background-color: #000000;
+	background-color: #247BBD;
 	color: #ffffff;
 }
 a.snav:link, a.snav:visited{
@@ -68,7 +78,7 @@ a.snav:link, a.snav:visited{
 	width:100%;
 }
 a.snav:hover, a.snav:active{
-	background-color: #000000;
+	background-color: #247BBD;
 	color: #ffffff;
 	width:100%;
 	text-decoration: none;
@@ -109,30 +119,30 @@ a.socialicob:hover,a.socialicob:active{
 }
 
 td.L1T:hover{
-	background-color:#000000;
+	background-color:#247BBD;
 	vertical-align:center;
 	border-left-style:none;
 }
 td.L2T:hover{
-	background-color:#000000;	
+	background-color:#247BBD;	
 }
 td.L3T:hover{
-	background-color:#000000;	
+	background-color:#247BBD;	
 }
 td.L4T:hover{
-	background-color:#000000;	
+	background-color:#247BBD;	
 }
 td.L5T:hover{
-	background-color:#000000;	
+	background-color:#247BBD;	
 }
 td.L6T:hover{
-	background-color:#000000;	
+	background-color:#247BBD;	
 }
 td.L7T:hover{
-	background-color:#000000;	
+	background-color:#247BBD;	
 }
 td.L8T:hover{
-	background-color:#000000;
+	background-color:#247BBD;
 	border-right-style:none;	
 }
 .L1T{
@@ -142,7 +152,9 @@ td.L8T:hover{
 	text-align:center;
 	background-color: white;
 	vertical-align:center;
-
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=72, Color=#000000)";/*IE 8*/
+	text-shadow: -1px 3px 9px #000000;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=135, Color=#000000); /*IE 5.5-7*/
 	
 }
 .L2T{
@@ -152,7 +164,9 @@ td.L8T:hover{
 	background-color: white;
 	border:1px;
 	border-style: solid;
-
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=72, Color=#000000)";/*IE 8*/
+	text-shadow: -1px 3px 9px #000000;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=135, Color=#000000); /*IE 5.5-7*/
 	
 }
 .L3T{
@@ -162,6 +176,9 @@ td.L8T:hover{
 	background-color: white;
 	border:1px;
 	border-style: solid;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=72, Color=#000000)";/*IE 8*/
+	text-shadow: -1px 3px 9px #000000;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=135, Color=#000000); /*IE 5.5-7*/
 }
 .L4T{
 	margin: auto;
@@ -170,6 +187,9 @@ td.L8T:hover{
 	background-color: white;
 	border:1px;
 	border-style: solid;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=72, Color=#000000)";/*IE 8*/
+	text-shadow: -1px 3px 9px #000000;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=135, Color=#000000); /*IE 5.5-7*/
 }
 .L5T{
 	margin: auto;
@@ -178,6 +198,9 @@ td.L8T:hover{
 	background-color: white;	
 	border:1px;
 	border-style: solid;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=72, Color=#000000)";/*IE 8*/
+	text-shadow: -1px 3px 9px #000000;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=135, Color=#000000); /*IE 5.5-7*/
 }
 .L6T{
 	margin: auto;
@@ -186,6 +209,9 @@ td.L8T:hover{
 	background-color: white;
 	border:1px;
 	border-style: solid;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=72, Color=#000000)";/*IE 8*/
+	text-shadow: -1px 3px 9px #000000;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=135, Color=#000000); /*IE 5.5-7*/
 }
 .L7T{
 	margin: auto;
@@ -194,6 +220,9 @@ td.L8T:hover{
 	background-color: white;
 	border:1px;
 	border-style: solid;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=72, Color=#000000)";/*IE 8*/
+	text-shadow: -1px 3px 9px #000000;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=135, Color=#000000); /*IE 5.5-7*/
 }
 .L8T{
 	margin: auto;
@@ -201,6 +230,9 @@ td.L8T:hover{
 	text-align:center;
 	background-color: white;
 	border-right-style:none;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=72, Color=#000000)";/*IE 8*/
+	text-shadow: -1px 3px 9px #000000;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=135, Color=#000000); /*IE 5.5-7*/
 
 }
 /********************************************************
@@ -208,6 +240,26 @@ td.L8T:hover{
 *********************************************************/
 /* Navigation left CSS nav1*/
 /* Content CSS */
+.content-wrap{
+	background-color:#D6D6D6;
+	width: 900px;
+}
+/* Under Construction Notice CSS */
+.uc01{
+	border:0px;
+	border-style: solid;
+	width: 100%;
+	height: 30px;
+	
+}
+.uc02{
+	border:1px;
+	border-style: dashed;
+	background-color: yellow;
+	text-align: center;
+
+	
+}
 /* Navigation right CSS nav2*/
 .snav_wrap{
 	width: 100%;
