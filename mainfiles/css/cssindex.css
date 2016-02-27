@@ -50,17 +50,7 @@ a.socialicot:link,a.socialicot:visited{
 a.socialicot:hover,a.socialicot:active{
 	
 }
-a.registerl:link, a.register1:visited{
-    background-color: #ffffff;
-    color: #000000;
-    padding:6px;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-}
-a.register1:hover, a.register1:active{
-	
-}
+
 a.tnav:link, a.tnav:visited{
     background-color: #ffffff;
     color: #000000;
@@ -103,9 +93,37 @@ a.socialicob:hover,a.socialicob:active{
 	padding:0px;
 }
 .login-wrap-social{
-	width: 60%;
+	width: 75%;
 }
+.login-btn-wrap{
+	background-color:#247BBD;
+	color:#000000;
+	border: 1px;
+	border-style:solid;
+	width:112.5px;
+	text-align: center;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=72, Color=#000000)";/*IE 8*/
+	text-shadow: -1px 3px 9px #000000;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=135, Color=#000000); /*IE 5.5-7*/
 
+}
+td.login-btn-wrap:hover{
+	background-color:#000000;
+	color:#ffffff;
+}
+a.login-button:link, a.login-button:visited{
+    background-color: #247BBD;
+    color: #ffffff;
+    padding:6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	width:83%;
+}
+a.login-button:hover, a.login-button:active{
+	background-color:#000000;
+	color:#ffffff;
+}
 
 /********************************************************
 *********            HEADER SECTION              ********
@@ -114,6 +132,9 @@ a.socialicob:hover,a.socialicob:active{
 	background-color:#ffffff;
 	width: 100%;
 	height: 130px;
+}
+.header-text{
+	text-align:center;
 }
 
 /********************************************************
@@ -325,35 +346,58 @@ td.L8T:hover{
 .footer-wrap-main{
 	width:100%;
 	vertical-align:top;
-	background-color: #30A4FC;
+	background-color: #247BBD;
+	padding:0px;
 }
 .footer-wrap{
-	border: 1px;
-	border-style: solid;
-	border-collapse: collapse;
+	border: 0px;
 	width: 100%;
+	background-color: #247BBD;
 	border-top-style:none;
-	border-left-style:none;
+	border-bottom-style:none;
 	border-right-style:none;
-	background-color: #30A4FC;
+	border-left-style:none;
+	padding: 0px;
+	margin: 0px;
 }
 .footer-wrap-bg{
-	background-color: #30A4FC;
+	background-color: #247BBD;
 }
 .footer-wrap-bg2{
-	background-color: #66ffff;
+	background-color: #247BBD;
 	width:65%;
 }
 /* Footer Links CSS */
 .footer-links-wrap{
 	width: 95%;
-	background-color: #cc99ff;
+	background-color: #247BBD;
+	padding:0px;
 }
 /* Footer Images CSS */
+.footer-image-wrapbg{
+	background-color: #247BBD;	
+	width:35%;
+	vertical-align:top;
+	padding:0px;
+}
+.footer-social-wrap{
+	background-color: #247BBD;
+	width: 100%;
+	padding:0px;
+}
+
 /********************************************************
 *********          COPYRIGHT SECTION             ********
 *********************************************************/
 /* Copyright CSS */
+.copyrightbg{
+	background-color: #247BBD;
+	padding:0px;
+	text-align:center;
+	width: 100%;
+}
+
+
 
 /********************************************************
 *********          END OF CSS CONTENT            ********
