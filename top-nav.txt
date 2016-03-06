@@ -1,0 +1,269 @@
+---------------------------------------------------------------------------------------------------------------------------------
+index.html				
+---------------------------------------------------------------------------------------------------------------------------------
+
+		<link id="maincss" rel="stylesheet" type="text/css" href="mainfiles/css/cssindex.css" />
+		<link id="dropdowncss" rel="stylesheet" type="text/css" href="mainfiles/css/dropdown.css" />
+
+
+									<!-- Top Nav Link 1 -->
+										<td class="L1T">
+											<a href="index.html"><button class="dropbtn">HOME</button></a>
+										</td>
+									<!-- Top Nav Link 2 -->
+										<td class="L2T">
+											<div class="dropdown">
+												<a href="dev/"><button class="dropbtn">DEVELOPMENT</button></a>
+												<div class="dropdown-content">
+    												<a href="dev/p/">Projects</a>
+   													<a href="dev/d/">Downlaods</a>
+  												</div>
+											</div>
+										</td>
+									<!-- Top Nav Link 3 -->
+										<td class="L3T">
+											<a href="shop/"><button class="dropbtn">SHOP</button></a>
+										</td>
+									<!-- Top Nav Link 4 -->
+										<td class="L4T">
+											<div class="dropdown">
+ 												<a href="broadcasting/"><button class="dropbtn">BROADCASTING</button></a>
+  												<div class="dropdown-content">
+    												<a href="broadcasting/twitch.html">[NP] Twitch.TV</a>
+   													<a href="broadcasting/picarto.html">[NP] Picarto.TV</a>
+    												<a href="broadcasting/p/">Other Broadcasts</a>
+  												</div>
+ 											</div>
+										</td>
+									<!-- Top Nav Link 5 -->
+										<td class="L5T">
+											<div class="dropdown">
+ 												<a href="community/"><button class="dropbtn">COMMUNITY</button></a>
+  													<div class="dropdown-content">
+    													<a href="community/f/">Forums</a>
+   														<a href="community/c/">Chat</a>
+    													<a href="community/g/">Groups</a>
+  													</div>
+  											</div>												
+										</td>
+									<!-- Top Nav Link 6 -->
+										<td class="L6T">
+											<div class="dropdown">
+ 												<a href="about/"><button class="dropbtn">ABOUT US</button></a>
+  													<div class="dropdown-content">
+   														<a href="about/team/">Team Members</a>
+    													<a href="about/tos/">TOS</a>
+  													</div>
+  											</div>
+										</td>
+									<!-- Top Nav Link 7 -->
+										<td class="L7T">
+											<a href="contact/"><button class="dropbtn">CONTACT US</button></a>
+										</td>
+									<!-- Top Nav Link 8 -->
+										<td class="L8T">
+											<a href="donate/"><button class="dropbtn">DONATE</button></a>
+										</td>
+---------------------------------------------------------------------------------------------------------------------------------
+dev, shop/, broadcasting, community, about, contact, donate x1
+---------------------------------------------------------------------------------------------------------------------------------
+
+		<link id="maincss" rel="stylesheet" type="text/css" href="../mainfiles/css/cssindex.css" />
+		<link id="dropdowncss" rel="stylesheet" type="text/css" href="../mainfiles/css/dropdown.css" />
+
+
+									<!-- Top Nav Link 1 -->
+										<td class="L1T">
+											<a href="../index.html"><button class="dropbtn">HOME</button></a>
+										</td>
+									<!-- Top Nav Link 2 -->
+										<td class="L2T">
+											<div class="dropdown">
+												<a href="../dev/"><button class="dropbtn">DEVELOPMENT</button></a>
+												<div class="dropdown-content">
+													<a href="../dev/p/">Projects</a>
+													<a href="../dev/d/">Downlaods</a>
+												</div>
+											</div>
+										</td>
+									<!-- Top Nav Link 3 -->
+										<td class="L3T">
+											<a href="../shop/"><button class="dropbtn">SHOP</button></a>
+										</td>
+									<!-- Top Nav Link 4 -->
+										<td class="L4T">
+											<div class="dropdown">
+												<a href="../broadcasting/"><button class="dropbtn">BROADCASTING</button></a>
+												<div class="dropdown-content">
+													<a href="../broadcasting/twitch.html">[NP] Twitch.TV</a>
+													<a href="../broadcasting/picarto.html">[NP] Picarto.TV</a>
+													<a href="../broadcasting/p/">Other Broadcasts</a>
+												</div>
+											</div>
+										</td>
+									<!-- Top Nav Link 5 -->
+										<td class="L5T">
+											<div class="dropdown">
+												<a href="../community/"><button class="dropbtn">COMMUNITY</button></a>
+												<div class="dropdown-content">
+													<a href="../community/f/">Forums</a>
+													<a href="../community/c/">Chat</a>
+													<a href="../community/g/">Groups</a>
+												</div>
+											</div>									
+										</td>
+									<!-- Top Nav Link 6 -->
+										<td class="L6T">
+											<div class="dropdown">
+												<a href="../about/"><button class="dropbtn">ABOUT US</button></a>
+												<div class="dropdown-content">
+													<!--<a href="#">About Us</a>-->
+													<a href="../about/team/">Team Members</a>
+													<a href="../about/tos/">TOS</a>
+												</div>
+											</div>
+										</td>
+									<!-- Top Nav Link 7 -->
+										<td class="L7T">
+											<a href="../contact/"><button class="dropbtn">CONTACT US</button></a>
+										</td>
+									<!-- Top Nav Link 8 -->
+										<td class="L8T">
+											<a href="../donate/"><button class="dropbtn">DONATE</button></a>
+										</td>
+---------------------------------------------------------------------------------------------------------------------------------
+dev, shop/, broadcasting, community, about, contact, donate x2
+---------------------------------------------------------------------------------------------------------------------------------
+
+		<link id="maincss" rel="stylesheet" type="text/css" href="../../mainfiles/css/cssindex.css" />
+		<link id="dropdowncss" rel="stylesheet" type="text/css" href="../../mainfiles/css/dropdown.css" />
+
+
+
+									<!-- Top Nav Link 1 -->
+										<td class="L1T">
+											<a href="../../index.html"><button class="dropbtn">HOME</button></a>
+										</td>
+									<!-- Top Nav Link 2 -->
+										<td class="L2T">
+											<div class="dropdown">
+												<a href="../../dev/"><button class="dropbtn">DEVELOPMENT</button></a>
+												<div class="dropdown-content">
+													<a href="../../dev/p/">Projects</a>
+													<a href="../../dev/d/">Downlaods</a>
+												</div>
+											</div>
+										</td>
+									<!-- Top Nav Link 3 -->
+										<td class="L3T">
+											<a href="../../shop/"><button class="dropbtn">SHOP</button></a>
+										</td>
+									<!-- Top Nav Link 4 -->
+										<td class="L4T">
+											<div class="dropdown">
+												<a href="../../broadcasting/"><button class="dropbtn">BROADCASTING</button></a>
+												<div class="dropdown-content">
+													<a href="../../broadcasting/twitch.html">[NP] Twitch.TV</a>
+													<a href="../../broadcasting/picarto.html">[NP] Picarto.TV</a>
+													<a href="../../broadcasting/p/">Other Broadcasts</a>
+												</div>
+											</div>
+										</td>
+									<!-- Top Nav Link 5 -->
+										<td class="L5T">
+											<div class="dropdown">
+												<a href="../../community/"><button class="dropbtn">COMMUNITY</button></a>
+												<div class="dropdown-content">
+													<a href="../../community/f/">Forums</a>
+													<a href="../../community/c/">Chat</a>
+													<a href="../../community/g/">Groups</a>
+												</div>
+											</div>									
+										</td>
+									<!-- Top Nav Link 6 -->
+										<td class="L6T">
+											<div class="dropdown">
+												<a href="../../about/"><button class="dropbtn">ABOUT US</button></a>
+												<div class="dropdown-content">
+													<!--<a href="#">About Us</a>-->
+													<a href="../../about/team/">Team Members</a>
+													<a href="../../about/tos/">TOS</a>
+												</div>
+											</div>
+										</td>
+									<!-- Top Nav Link 7 -->
+										<td class="L7T">
+											<a href="../../contact/"><button class="dropbtn">CONTACT US</button></a>
+										</td>
+									<!-- Top Nav Link 8 -->
+										<td class="L8T">
+											<a href="../../donate/"><button class="dropbtn">DONATE</button></a>
+										</td>
+---------------------------------------------------------------------------------------------------------------------------------
+dev, shop/, broadcasting, community, about, contact, donate x3
+---------------------------------------------------------------------------------------------------------------------------------
+
+
+		<link id="maincss" rel="stylesheet" type="text/css" href="../../../mainfiles/css/cssindex.css" />
+		<link id="dropdowncss" rel="stylesheet" type="text/css" href="../../../mainfiles/css/dropdown.css" />
+
+
+									<!-- Top Nav Link 1 -->
+										<td class="L1T">
+											<a href="../../../index.html"><button class="dropbtn">HOME</button></a>
+										</td>
+									<!-- Top Nav Link 2 -->
+										<td class="L2T">
+											<div class="dropdown">
+												<a href="../../../dev/"><button class="dropbtn">DEVELOPMENT</button></a>
+												<div class="dropdown-content">
+													<a href="../../../dev/p/">Projects</a>
+													<a href="../../../dev/d/">Downlaods</a>
+												</div>
+											</div>
+										</td>
+									<!-- Top Nav Link 3 -->
+										<td class="L3T">
+											<a href="../../../shop/"><button class="dropbtn">SHOP</button></a>
+										</td>
+									<!-- Top Nav Link 4 -->
+										<td class="L4T">
+											<div class="dropdown">
+												<a href="../../../broadcasting/"><button class="dropbtn">BROADCASTING</button></a>
+												<div class="dropdown-content">
+													<a href="../../../broadcasting/twitch.html">[NP] Twitch.TV</a>
+													<a href="../../../broadcasting/picarto.html">[NP] Picarto.TV</a>
+													<a href="../../../broadcasting/p/">Other Broadcasts</a>
+												</div>
+											</div>
+										</td>
+									<!-- Top Nav Link 5 -->
+										<td class="L5T">
+											<div class="dropdown">
+												<a href="../../../community/"><button class="dropbtn">COMMUNITY</button></a>
+												<div class="dropdown-content">
+													<a href="../../../community/f/">Forums</a>
+													<a href="../../../community/c/">Chat</a>
+													<a href="../../../community/g/">Groups</a>
+												</div>
+											</div>									
+										</td>
+									<!-- Top Nav Link 6 -->
+										<td class="L6T">
+											<div class="dropdown">
+												<a href="../../../about/"><button class="dropbtn">ABOUT US</button></a>
+												<div class="dropdown-content">
+													<!--<a href="#">About Us</a>-->
+													<a href="../../../about/team/">Team Members</a>
+													<a href="../../../about/tos/">TOS</a>
+												</div>
+											</div>
+										</td>
+									<!-- Top Nav Link 7 -->
+										<td class="L7T">
+											<a href="../../../contact/"><button class="dropbtn">CONTACT US</button></a>
+										</td>
+									<!-- Top Nav Link 8 -->
+										<td class="L8T">
+											<a href="../../../donate/"><button class="dropbtn">DONATE</button></a>
+										</td>
