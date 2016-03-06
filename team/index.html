@@ -24,7 +24,7 @@
 		<!-- Link Section / CSS Section -->
 		<!-- ------------------------------------------------------------------------------ -->
 		<link id="maincss" rel="stylesheet" type="text/css" href="../mainfiles/css/cssindex.css" />
-		
+		<link id="dropdowncss" rel="stylesheet" type="text/css" href="../mainfiles/css/dropdown.css" />		
 		<!-- ------------------------------------------------------------------------------ -->
 		<!-- End Link Section / CSS Section -->
 		<!-- ------------------------------------------------------------------------------ -->
@@ -84,21 +84,74 @@
 								<table class="tnav-wrap">
 									<tr class="TTLinks ">
 										<!-- Top Nav Link 1 -->
-										<td class="L1T"><a href="../index.html" class="tnav">&nbsp; HOME &nbsp;</a></td>
+										<td class="L1T">
+											<a href="../index.html"><button class="dropbtn">HOME</button></a>
+											<!--<a href="index.html" class="tnav">&nbsp; HOME &nbsp;</a>-->
+											</td>
 										<!-- Top Nav Link 2 -->
-										<td class="L2T"><a href="../dev/" class="tnav">&nbsp; DEVELOPMENT &nbsp;</a></td>
+										<td class="L2T">
+											<div class="dropdown">
+											<a href="../dev/"><button class="dropbtn">DEVELOPMENT</button></a>
+												<div class="dropdown-content">
+    												<a href="#">Projects</a>
+   													<a href="#">Downlaods</a>
+  												</div>
+											</div>
+											<!--<a href="dev/" class="tnav">&nbsp; DEVELOPMENT &nbsp;</a>-->
+											</td>
 										<!-- Top Nav Link 3 -->
-										<td class="L3T"><a href="shop/" class="tnav">&nbsp; SHOP &nbsp;</a></td>
+										<td class="L3T">
+											<a href="../shop/"><button class="dropbtn">SHOP</button></a>
+											<!--<a href="shop/" class="tnav">&nbsp; SHOP &nbsp;</a>-->
+											</td>
 										<!-- Top Nav Link 4 -->
-										<td class="L4T"><a href="../broadcasting/" class="tnav">&nbsp; BROADCASTING &nbsp;</a></td>
+										<td class="L4T">
+												<div class="dropdown">
+ 												<a href="../broadcasting/"><button class="dropbtn">BROADCASTING</button></a>
+  													<div class="dropdown-content">
+    													<a href="#">[NP] Twitch.TV</a>
+   														<a href="#">[NP] Picarto.TV</a>
+    													<a href="#">Other Broadcasts</a>
+  													</div>
+  												</div>
+											<!--<a href="broadcasting/" class="tnav">&nbsp; BROADCASTING &nbsp;</a>-->
+											</td>
 										<!-- Top Nav Link 5 -->
-										<td class="L5T"><a href="../community/" class="tnav">&nbsp; COMMUNITY &nbsp;</a></td>
+										<td class="L5T">
+												<div class="dropdown">
+ 												<a href="../community/"><button class="dropbtn">COMMUNITY</button></a>
+  													<div class="dropdown-content">
+    													<a href="#">Forums</a>
+   														<a href="#">Chat</a>
+    													<a href="#">Groups</a>
+  													</div>
+  												</div>
+											
+											<!--<a href="community/" class="tnav">&nbsp; COMMUNITY &nbsp;</a>-->
+												
+											</td>
 										<!-- Top Nav Link 6 -->
-										<td class="L6T"><a href="../about/" class="tnav">&nbsp; ABOUT US &nbsp;</a></td>
+										<td class="L6T">
+												<div class="dropdown">
+ 												<a href="../about/"><button class="dropbtn">ABOUT US</button></a>
+  													<div class="dropdown-content">
+    													<!--<a href="#">About Us</a>-->
+   														<a href="../team/">Team Members</a>
+    													<a href="#">TOS</a>
+  													</div>
+  												</div>
+											<!--<a href="about/" class="tnav">&nbsp; ABOUT US &nbsp;</a> -->
+											</td>
 										<!-- Top Nav Link 7 -->
-										<td class="L7T"><a href="../contact/" class="tnav">&nbsp; CONTACT US &nbsp;</a></td>
+										<td class="L7T">
+											<a href="../contact/"><button class="dropbtn">CONTACT US</button></a>
+											<!-- <a href="contact/" class="tnav">&nbsp; CONTACT US &nbsp;</a> -->
+											</td>
 										<!-- Top Nav Link 8 -->
-										<td class="L8T"><a href="../donate/" class="tnav">&nbsp; DONATE &nbsp;</a></td>
+										<td class="L8T">
+											<a href="../donate/"><button class="dropbtn">DONATE</button></a>
+											<!-- <a href="donate/" class="tnav">&nbsp; DONATE &nbsp;</a> -->
+										</td>
 									</tr>
 								</table>
 							</td>
@@ -111,6 +164,7 @@
 					<table class="scbgfill">
 						<tr>
 							<!-- Start Navigation -->
+							<!--
 							<td class="snav_wrap">
 								<table>
 									<tr>
@@ -141,6 +195,7 @@
 								</table>
 								
 							</td>
+							-->
 							<!-- End Navagation -->
 							<!-- Start Content -->
 							<td class="content-wrap"><br/>

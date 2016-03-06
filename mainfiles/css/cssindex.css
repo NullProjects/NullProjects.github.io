@@ -188,7 +188,7 @@ td.L8T:hover{
 	margin: auto;
 	width:112.5px;
 	border-left-style:none;
-	text-align:center;
+	/*text-align:center;*/
 	background-color: white;
 	vertical-align:center;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=72, Color=#000000)";/*IE 8*/
@@ -199,7 +199,7 @@ td.L8T:hover{
 .L2T{
 	margin: auto;
 	width:112.5px;
-	text-align:center;
+	/*text-align:center;*/
 	background-color: white;
 	border:1px;
 	border-style: solid;
@@ -211,7 +211,7 @@ td.L8T:hover{
 .L3T{
 	margin: auto;
 	width:112.5px;
-	text-align:center;
+	/*text-align:center;*/
 	background-color: white;
 	border:1px;
 	border-style: solid;
@@ -222,7 +222,7 @@ td.L8T:hover{
 .L4T{
 	margin: auto;
 	width:112.5px;
-	text-align:center;
+	/*text-align:center;*/
 	background-color: white;
 	border:1px;
 	border-style: solid;
@@ -233,7 +233,7 @@ td.L8T:hover{
 .L5T{
 	margin: auto;
 	width:112.5px;
-	text-align:center;
+	/*text-align:center;*/
 	background-color: white;	
 	border:1px;
 	border-style: solid;
@@ -244,7 +244,7 @@ td.L8T:hover{
 .L6T{
 	margin: auto;
 	width:112.5px;
-	text-align:center;
+	/*text-align:center;*/
 	background-color: white;
 	border:1px;
 	border-style: solid;
@@ -255,7 +255,7 @@ td.L8T:hover{
 .L7T{
 	margin: auto;
 	width:112.5px;
-	text-align:center;
+	/*text-align:center;*/
 	background-color: white;
 	border:1px;
 	border-style: solid;
@@ -266,7 +266,7 @@ td.L8T:hover{
 .L8T{
 	margin: auto;
 	width:112.5px;
-	text-align:center;
+	/*text-align:center;*/
 	background-color: white;
 	border-right-style:none;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=72, Color=#000000)";/*IE 8*/
