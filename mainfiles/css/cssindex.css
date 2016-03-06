@@ -108,8 +108,8 @@ a.socialicob:hover,a.socialicob:active{
 
 }
 td.login-btn-wrap:hover{
-	background-color:#000000;
-	color:#ffffff;
+	background-color:#ffffff;
+	color:#000000;
 }
 a.login-button:link, a.login-button:visited{
     background-color: #247BBD;
@@ -121,8 +121,8 @@ a.login-button:link, a.login-button:visited{
 	width:83%;
 }
 a.login-button:hover, a.login-button:active{
-	background-color:#000000;
-	color:#ffffff;
+	background-color:#ffffff;
+	color:#000000;
 }
 
 /********************************************************
@@ -150,6 +150,7 @@ a.login-button:hover, a.login-button:active{
 	border-left-style:none;
 	border-right-style:none;
 	padding:0px;
+	width:100%;
 }
 .TTLinks{
 	border-left-style:none;
@@ -287,6 +288,17 @@ td.L8T:hover{
 	width: 65%; /* Value could be 65% or 100% */
 	vertical-align: top;
 }
+.content-collum{
+/* FF 3.5+*/
+	-moz-column-count: 2;
+	-moz-column-gap: 20px;
+/*Saf3, Chrome*/
+	-webkit-column-count: 2;
+	-webkit-column-gap: 20px;
+	column-count: 2;
+	column-gap: 20px;
+	text-align: center;
+}
 /* Under Construction Notice CSS */
 .uc01{
 	border:0px;
@@ -304,9 +316,10 @@ td.L8T:hover{
 	
 }
 /* Navigation right CSS nav2*/
+
 .snav_wrap{
-	width: 10%;
-	border: 1px;
+	width: 15%;
+	border: 5px;
 	border-style: solid;
 	border-collapse: collapse;
 	border-left-style: none;
@@ -318,7 +331,29 @@ td.L8T:hover{
 	margin:0px;
 	margin-top:0px;
 	vertical-align: top;
-	background-color:#ffffff;
+	background-color:#D6D6D6;
+	border-color: #D6D6D6;
+	border-bottom-color: #D6D6D6;
+	border-left-color: #D6D6D6;
+	border-right-color: #D6D6D6;
+	border-top-color: #D6D6D6;
+}
+
+.snav_wrap_menu{
+	border-style: solid;
+	border-color: #000000;
+	border: 1px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 0px;
+	width: 100%;
+	vertical-align: top;
+	
+	
 }
 .snav_title{
 	background-color:#ffffff;
