@@ -1,11 +1,12 @@
-/********************************************************
-********* This website was created by Cybergig22 ********
-*********    The template is free to use and     ********
-*********      was constructed from partial      ********
-*********  OpenElement use. However things were  ********
-*********   reconstructed and is ongoing under   ********
-*********        heavy development work.         ********
-*********************************************************/
+/***************************************************************************************
+****************************************************************************************
+****    	Copyright by Cybergig22, Null Projects & SZE and the NP Team              ****
+****    	This website is free to use by other people just be sure to               ****
+****    	leave this copyright notice up here a good place to get this template     ****
+****    	from for your own github or other website is @                            ****
+****							  		http://nullprojects.github.io/dev/GitCMS                    ****
+****************************************************************************************
+***************************************************************************************/
 
 /********************************************************
 *********            MAIN BODY SECTION           ********
@@ -45,10 +46,10 @@ a:hover, a:active {
 }
 */
 a.socialicot:link,a.socialicot:visited{
-	
+
 }
 a.socialicot:hover,a.socialicot:active{
-	
+
 }
 
 a.tnav:link, a.tnav:visited{
@@ -76,10 +77,10 @@ a.snav:hover, a.snav:active{
 	text-decoration: none;
 }
 a.socialicob:link,a.socialicob:visited{
-	
+
 }
 a.socialicob:hover,a.socialicob:active{
-	
+
 }
 
 
@@ -163,26 +164,26 @@ td.L1T:hover{
 	border-left-style:none;
 }
 td.L2T:hover{
-	background-color:#247BBD;	
+	background-color:#247BBD;
 }
 td.L3T:hover{
-	background-color:#247BBD;	
+	background-color:#247BBD;
 }
 td.L4T:hover{
-	background-color:#247BBD;	
+	background-color:#247BBD;
 }
 td.L5T:hover{
-	background-color:#247BBD;	
+	background-color:#247BBD;
 }
 td.L6T:hover{
-	background-color:#247BBD;	
+	background-color:#247BBD;
 }
 td.L7T:hover{
-	background-color:#247BBD;	
+	background-color:#247BBD;
 }
 td.L8T:hover{
 	background-color:#247BBD;
-	border-right-style:none;	
+	border-right-style:none;
 }
 .L1T{
 	margin: auto;
@@ -194,7 +195,7 @@ td.L8T:hover{
 	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=72, Color=#000000)";/*IE 8*/
 	text-shadow: -1px 3px 9px #000000;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
 	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=135, Color=#000000); /*IE 5.5-7*/
-	
+
 }
 .L2T{
 	margin: auto;
@@ -206,7 +207,7 @@ td.L8T:hover{
 	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=72, Color=#000000)";/*IE 8*/
 	text-shadow: -1px 3px 9px #000000;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
 	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=135, Color=#000000); /*IE 5.5-7*/
-	
+
 }
 .L3T{
 	margin: auto;
@@ -234,7 +235,7 @@ td.L8T:hover{
 	margin: auto;
 	width:112.5px;
 	/*text-align:center;*/
-	background-color: white;	
+	background-color: white;
 	border:1px;
 	border-style: solid;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=72, Color=#000000)";/*IE 8*/
@@ -305,7 +306,7 @@ td.L8T:hover{
 	border-style: solid;
 	width: 100%;
 	height: 30px;
-	
+
 }
 .uc02{
 	border:1px;
@@ -313,7 +314,7 @@ td.L8T:hover{
 	background-color: yellow;
 	text-align: center;
 
-	
+
 }
 /* Navigation right CSS nav2*/
 
@@ -352,8 +353,8 @@ td.L8T:hover{
 	margin-top: 0px;
 	width: 100%;
 	vertical-align: top;
-	
-	
+
+
 }
 .snav_title{
 	background-color:#ffffff;
@@ -410,7 +411,7 @@ td.L8T:hover{
 }
 /* Footer Images CSS */
 .footer-image-wrapbg{
-	background-color: #247BBD;	
+	background-color: #247BBD;
 	width:35%;
 	vertical-align:top;
 	padding:0px;
