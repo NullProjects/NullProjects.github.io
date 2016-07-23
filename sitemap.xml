@@ -1,19 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc />
+    <loc>index.html</loc>
     <lastmod>2013-03-27</lastmod>
   </url>
   <url>
-    <loc>Contact.htm</loc>
+    <loc>/shop/index.html</loc>
     <lastmod>2013-03-27</lastmod>
   </url>
   <url>
-    <loc>Example.htm</loc>
+    <loc>/about/index.html</loc>
     <lastmod>2013-03-27</lastmod>
   </url>
   <url>
-    <loc>index.htm</loc>
+    <loc>/broadcasting/index.html</loc>
     <lastmod>2013-03-27</lastmod>
   </url>
+  <url>
+    <loc>/dev/index.html</loc>
+    <lastmod>2013-03-27</lastmod>
+  </url>
+  <url>
+    <loc>/concact/index.html</loc>
+    <lastmod>2013-03-27</lastmod>
+  </url>
+
 </urlset>
