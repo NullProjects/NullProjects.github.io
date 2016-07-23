@@ -1,34 +1,218 @@
-Home
+Home <link id="maincss" rel="stylesheet" type="text/css" href="mainfiles/css/cssindex.css" />
 ========================================================================================
 -About
---teams
----ndaa
-----team
+--teams (folder)
+---ndaa (folder)
+----team (folder)
+----index <link id="maincss" rel="stylesheet" type="text/css" href="../../../mainfiles/css/cssindex.css" />
+---np (folder)
+----team (folder)
+-----index  <link id="maincss" rel="stylesheet" type="text/css" href="../../../../mainfiles/css/cssindex.css" />
+----index <link id="maincss" rel="stylesheet" type="text/css" href="../../../mainfiles/css/cssindex.css" />
+---sze (folder)
+----team (folder)
+-----index  <link id="maincss" rel="stylesheet" type="text/css" href="../../../../mainfiles/css/cssindex.css" />
+----index <link id="maincss" rel="stylesheet" type="text/css" href="../../../mainfiles/css/cssindex.css" />
+---index <link id="maincss" rel="stylesheet" type="text/css" href="../../mainfiles/css/cssindex.css" />
+--tos (folder)
+---index <link id="maincss" rel="stylesheet" type="text/css" href="../../mainfiles/css/cssindex.css" />
+--index <link id="maincss" rel="stylesheet" type="text/css" href="../mainfiles/css/cssindex.css" />
+========================================================================================
+-Backup
+-Home
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+--About
+---teams
+----ndaa
+-----team
+-----index
+----np
+-----team
+-----index
+----sze
+-----team
+-----index
 ----index
----np
-----team
-----index
----sze
-----team
+---tos
 ----index
 ---index
---tos
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+--Broadcasting
+---p
+----cybergig22
+-----index
+----index
+---index
+---picarto
+---twitch
+---youtube
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+--Community
+---ndaa
+----index
+---sze
+----index
+---np
+----index
+---index
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+--Contact
+---index
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+--Development
+---d
+----ndaa
+-----ircbot-picarto
+------index
+-----ircbot-twitch
+------index
+-----ircbot-twitch
+------index
+-----index
+----np
+-----metabolt
+------index
+-----npgit-cms
+------index
+-----index
+----sze
+-----eob
+------index
+-----gekisen
+------index
+-----index
+----index
+---p
+----ndaa
+-----ircbot-picarto
+------index
+-----ircbot-twitch
+------index
+-----ircbot-twitch
+------index
+-----index
+----np
+-----metabolt
+------index
+-----npgit-cms
+------index
+-----index
+----sze
+-----eob
+------index
+-----gekisen
+------index
+-----index
+----index
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+--Donate
+---index
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+--Main Files
+---css (not gonna catalogue files)
+----css1
+----css2
+----index
+---images (not gonna catalogue files)
+----img1
+----img2
+----index
+---javascript (not gonna catalogue files)
+----js1
+----js2
+----index
+---index
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+--Shop
+---index
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+========================================================================================
+-Broadcasting
+--p
+---cybergig22
+----index
+---index
+--index
+--picarto
+--twitch
+--youtube
+========================================================================================
+-Community
+--ndaa
+---index
+--sze
+---index
+--np
 ---index
 --index
 ========================================================================================
--Backup
-========================================================================================
--Broadcasting
-========================================================================================
--Community
-========================================================================================
 -Contact
+--index
 ========================================================================================
 -Development
+--d
+---ndaa
+----ircbot-picarto
+-----index
+----ircbot-twitch
+-----index
+----ircbot-twitch
+-----index
+----index
+---np
+----metabolt
+-----index
+----npgit-cms
+-----index
+----index
+---sze
+----eob
+-----index
+----gekisen
+-----index
+----index
+---index
+--p
+---ndaa
+----ircbot-picarto
+-----index
+----ircbot-twitch
+-----index
+----ircbot-twitch
+-----index
+----index
+---np
+----metabolt
+-----index
+----npgit-cms
+-----index
+----index
+---sze
+----eob
+-----index
+----gekisen
+-----index
+----index
+---index
 ========================================================================================
 -Donate
+--index
 ========================================================================================
 -Main Files
+--css (not gonna catalogue files)
+---css1
+---css2
+---index
+--images (not gonna catalogue files)
+---img1
+---img2
+---index
+--javascript (not gonna catalogue files)
+---js1
+---js2
+---index
+--index
 ========================================================================================
 -Shop
+--index
 ========================================================================================

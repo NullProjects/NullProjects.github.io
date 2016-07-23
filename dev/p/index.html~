@@ -57,13 +57,13 @@
 								<table class="login-wrap">
 									<tr width="100%">
 										<td class="login-wrap-social">
-											<span><img src="themes\sundance\Image\Skin\facebook-social.png" />Fb</span>
-											<span><img src="themes\sundance\Image\Skin\twitter-social.png" />Tw</span>
-											<span><img src="themes\sundance\Image\Skin\tumblr-social.png" />Tr</span>
-											<span><img src="themes\sundance\Image\Skin\twitch-social.png" />Tt</span>
-											<span><img src="themes\sundance\Image\Skin\picarto-social.png" />Pt</span>
-											<span><img src="themes\sundance\Image\Skin\github-social.png" />Gh</span>
-											<span><img src="themes\sundance\Image\Skin\steam-social.png" />St</span>
+											<span><img src="..\..\mainfiles\images\t\sundance\image\skin\facebook-social.png" alt="FB" /></span>
+											<span><img src="..\..\mainfiles\images\t\sundance\image\skin\twitter-social.png" alt="TW" /></span>
+											<span><img src="..\..\mainfiles\images\t\sundance\image\skin\tumblr-social.png" alt="TU" /></span>
+											<span><img src="..\..\mainfiles\images\t\sundance\image\skin\twitch-social.png" alt="TB" /></span>
+											<span><img src="..\..\mainfiles\images\t\sundance\image\skin\picarto-social.png" alt="PS" /></span>
+											<span><img src="..\..\mainfiles\images\t\sundance\image\skin\github-social.png" alt="GH" /></span>
+											<span><img src="..\..\mainfiles\images\t\sundance\image\skin\steam-social.png" alt="ST" /></span>
 										</td>
 										<td class="login-btn-wrap"><a href="https://github.com/login" class="login-button" target="_new">Login</a></td>
 										<td class="login-btn-wrap"><a href="https://github.com/join" class="login-button" target="_new">Register</a></td>
@@ -275,16 +275,16 @@
 											<br />
 											<table>	
 												<tr>
-													<td><img src="/images/gekisen-thumb.png" alt="Picture 1" /></td>
-													<td><img src="/images/akinaakuno-thumb.png" alt="Picture 2" /></td>
-													<td><img src="/images/eob-thumb.png" alt="Picture 3" /></td>
-													<td><img src="" alt="Picture 4" /></td>
+													<td><img src="..\..\mainfiles\images\c\dev\projects\images\gekisen-thumb.png" alt="Project Gekisen" /></td>
+													<td><img src="..\..\mainfiles\images\c\dev\projects\images\akinaakuno-thumb.png" alt="Project Akina & Akuno" /></td>
+													<td><img src="..\..\mainfiles\images\c\dev\projects\images\eob-thumb.png" alt="Project EOB" /></td>
+													<td><img src="..\..\mainfiles\images\c\dev\projects\images\gcms.png" alt="GithubCMS Project" /></td>
 												</tr>
 												<tr>
 													<td>| Project Gekisen |</td>
 													<td>Project Akina & Akuno |</td>
 													<td>Project EOB |</td>
-													<td>Project Title 4 |</td>												
+													<td>GithubCMS Project |</td>												
 												</tr>
 												<tr>
 													<td></td>
@@ -293,10 +293,10 @@
 													<td></td>
 												</tr>
 												<tr>
-													<td><img src="" alt="Picture 5" /></td>
-													<td><img src="" alt="Picture 6" /></td>
-													<td><img src="" alt="Picture 7" /></td>
-													<td><img src="" alt="Picture 8" /></td>
+													<td><img src="..\..\mainfiles\images\c\dev\projects\images\image5.png" alt="Picture 5" /></td>
+													<td><img src="..\..\mainfiles\images\c\dev\projects\images\image6.png" alt="Picture 6" /></td>
+													<td><img src="..\..\mainfiles\images\c\dev\projects\images\image7.png" alt="Picture 7" /></td>
+													<td><img src="..\..\mainfiles\images\c\dev\projects\images\image8.png" alt="Picture 8" /></td>
 												</tr>
 												<tr>
 													<td>| Project Title 5 |</td>
@@ -344,13 +344,13 @@
 											<table class="footer-social-wrap">
 												<tr>
 													<td align="right">
-														<img src="themes\sundance\Image\Skin\facebook-social.png" />Fb&nbsp;
-														<img src="themes\sundance\Image\Skin\twitter-social.png" />Tw&nbsp;
-														<img src="themes\sundance\Image\Skin\tumblr-social.png" />Tr&nbsp;
-														<img src="themes\sundance\Image\Skin\twitch-social.png" />Tt&nbsp;
-														<img src="themes\sundance\Image\Skin\picarto-social.png" />Pt&nbsp;
-														<img src="themes\sundance\Image\Skin\github-social.png" />Gh&nbsp;
-														<img src="themes\sundance\Image\Skin\steam-social.png" />St
+														<span><img src="..\..\mainfiles\images\t\sundance\image\skin\facebook-social.png" alt="FB" /></span>
+														<span><img src="..\..\mainfiles\images\t\sundance\image\skin\twitter-social.png" alt="TW" /></span>
+														<span><img src="..\..\mainfiles\images\t\sundance\image\skin\tumblr-social.png" alt="TU" /></span>
+														<span><img src="..\..\mainfiles\images\t\sundance\image\skin\twitch-social.png" alt="TB" /></span>
+														<span><img src="..\..\mainfiles\images\t\sundance\image\skin\picarto-social.png" alt="PS" /></span>
+														<span><img src="..\..\mainfiles\images\t\sundance\image\skin\github-social.png" alt="GH" /></span>
+														<span><img src="..\..\mainfiles\images\t\sundance\image\skin\steam-social.png" alt="ST" /></span>
 													</td>
 												</tr>
 											</table>

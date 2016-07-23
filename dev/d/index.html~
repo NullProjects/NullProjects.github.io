@@ -1,10 +1,3 @@
-<!-- ------------------------------------------------------------------------------ -->
-<!--    	Copyright by Cybergig22, Null Projects & SZE and the NP Team              -->
-<!--    	This website is free to use by other people just be sure to               -->
-<!--    	leave this copyright notice up here a good place to get this template     -->
-<!--    	from for your own github or other website is @                            -->
-<!--							  		http://nullprojects.github.io/dev/GitCMS                    -->
-<!-- ------------------------------------------------------------------------------ -->
 <!DOCTYPE html>
 <html lang="en-us">
 <!-- <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-us"> -->
@@ -57,13 +50,13 @@
 								<table class="login-wrap">
 									<tr width="100%">
 										<td class="login-wrap-social">
-											<span><img src="..\..\mainfiles\images\t\sundance\image\skin\facebook-social.png" alt="FB" /></span>
-											<span><img src="..\..\mainfiles\images\t\sundance\image\skin\twitter-social.png" alt="TW" /></span>
-											<span><img src="..\..\mainfiles\images\t\sundance\image\skin\tumblr-social.png" alt="TU" /></span>
-											<span><img src="..\..\mainfiles\images\t\sundance\image\skin\twitch-social.png" alt="TB" /></span>
-											<span><img src="..\..\mainfiles\images\t\sundance\image\skin\picarto-social.png" alt="PS" /></span>
-											<span><img src="..\..\mainfiles\images\t\sundance\image\skin\github-social.png" alt="GH" /></span>
-											<span><img src="..\..\mainfiles\images\t\sundance\image\skin\steam-social.png" alt="ST" /></span>
+											<span><img src="themes\sundance\Image\Skin\facebook-social.png" />Fb</span>
+											<span><img src="themes\sundance\Image\Skin\twitter-social.png" />Tw</span>
+											<span><img src="themes\sundance\Image\Skin\tumblr-social.png" />Tr</span>
+											<span><img src="themes\sundance\Image\Skin\twitch-social.png" />Tt</span>
+											<span><img src="themes\sundance\Image\Skin\picarto-social.png" />Pt</span>
+											<span><img src="themes\sundance\Image\Skin\github-social.png" />Gh</span>
+											<span><img src="themes\sundance\Image\Skin\steam-social.png" />St</span>
 										</td>
 										<td class="login-btn-wrap"><a href="https://github.com/login" class="login-button" target="_new">Login</a></td>
 										<td class="login-btn-wrap"><a href="https://github.com/join" class="login-button" target="_new">Register</a></td>
@@ -88,9 +81,6 @@
 					<table>
 						<tr>
 							<td>
-								<!-- ------------------------------------------------------------------------------ -->
-								<!--                                   Nav Menu                                     -->
-								<!-- ------------------------------------------------------------------------------ -->
 								<table class="tnav-wrap">
 									<tr class="TTLinks ">
 									<!-- Top Nav Link 1 -->
@@ -155,9 +145,6 @@
 										</td>
 									</tr>
 								</table>
-								<!-- ------------------------------------------------------------------------------ -->
-								<!--                                End Nav Table                                   -->
-								<!-- ------------------------------------------------------------------------------ -->
 							</td>
 						</tr>
 					</table>
@@ -172,43 +159,16 @@
 							<!-- End Navagation -->
 							<!-- Start Content -->
 							<td class="content-wrap"><br/>
-								<!-- ------------------------------------------------------------------------------ -->
-								<!--                            Under Construction Notice                           -->
-								<!-- ------------------------------------------------------------------------------ -->
 								<table class="uc01">
 									<tr>
 										<td class="uc02">This website is under construction, please check back later to see if &amp; when the website is ready :)</td>
 									</tr>
 								</table>
-								<!-- ------------------------------------------------------------------------------ -->
-								<!--                          End Under Construction Notice                         -->
-								<!-- ------------------------------------------------------------------------------ -->
 								<br/>
 								<table width="90%" align="center">
 									<tr>
 										<td>
-										<!-- ------------------------------------------------------------------------------ -->
-										<!--                                 Project List                                   -->
-										<!-- ------------------------------------------------------------------------------ -->
-										<!--
-											<span>
-												01. Project Akina<br />
-												02. Project EOB<br />
-												03. Project EOB 2<br />
-												04. Project Gekisen: Rebirth of the Fallen<br />
-												05. Project TFragment<br />
-												06. Project Alison<br />
-												07. Project Espion Framework<br />
-												08. Project Gs Portal<br />
-												09. Project MBFramework<br />
-												10. Project TBot Alpha<br />
-												11. Project GitCMS Portal<br />
-											</span>
-										-->
-										<!-- ------------------------------------------------------------------------------ -->
-										<!--                                  Table Setup                                   -->
-										<!-- ------------------------------------------------------------------------------ -->
-										<!--
+											<!--
 											<table>
 												<tr>
 													<td>Icon</td>
@@ -244,14 +204,7 @@
 													<td>&nbsp;</td>
 													<td>If you would like regular updates as to what is going on with the current null projects team you can join us at our BLOG here or subscribe and like us on facebook and twitter as well. You can also check us out on the forum as well once it is fully operational but as of yet even the website is currently going under construction and structuring process. </td>
 												</tr>
-											</table>
-										<!-- ------------------------------------------------------------------------------ -->
-										<!--                               End Table Setup                                  -->
-										<!-- ------------------------------------------------------------------------------ -->
-
-										<!-- ------------------------------------------------------------------------------ -->
-										<!--                          Under Construction Notice p2                          -->
-										<!-- ------------------------------------------------------------------------------ -->
+											</table> -->
 											<br/>
 											<p align="center"><strong>....Under construction</strong></p></h3>
 											<br /><span style="italic">... //Index Under Construction</span>
@@ -267,18 +220,15 @@
 											<br /><span>In the mean time if you would like to view the <a href="http://twitch.tv/cybergig22" target=_new>twitch</a> or <a href="https://picarto.tv/NullGaming" target=_new>picarto</a> stream channels or check to see if we are streaming you can :)</span>
 											<br /><span>You can also contribute by checking out, sharing or donating to the current donation drive that is going on at our <a href="https://www.gofundme.com/sectorsin" target=_new>GoFundMe</a> area</span><br/><br/><br/><br/>
 											<!-- ------------------------------------------------------------------------------ -->
-											<!--                          End Under Construction Notice p2                      -->
-											<!-- ------------------------------------------------------------------------------ -->
-											<!-- ------------------------------------------------------------------------------ -->
 											<!--                              Start Content Create                              -->
 											<!-- ------------------------------------------------------------------------------ -->
 											<br />
 											<table>	
 												<tr>
-													<td><img src="..\..\mainfiles\images\c\dev\projects\images\gekisen-thumb.png" alt="Project Gekisen" /></td>
-													<td><img src="..\..\mainfiles\images\c\dev\projects\images\akinaakuno-thumb.png" alt="Project Akina & Akuno" /></td>
-													<td><img src="..\..\mainfiles\images\c\dev\projects\images\eob-thumb.png" alt="Project EOB" /></td>
-													<td><img src="..\..\mainfiles\images\c\dev\projects\images\gcms.png" alt="GithubCMS Project" /></td>
+													<td><img src="..\..\mainfiles\images\c\dev\downloads\images\gekisen-thumb.png" alt="Project Gekisen" /></td>
+													<td><img src="..\..\mainfiles\images\c\dev\downloads\images\akinaakuno-thumb.png" alt="Project Akina & Akuno" /></td>
+													<td><img src="..\..\mainfiles\images\c\dev\downloads\images\eob-thumb.png" alt="Project EOB" /></td>
+													<td><img src="..\..\mainfiles\images\c\dev\downloads\images\gcms.png" alt="GithubCMS Project" /></td>
 												</tr>
 												<tr>
 													<td>| Project Gekisen |</td>
@@ -293,10 +243,10 @@
 													<td></td>
 												</tr>
 												<tr>
-													<td><img src="..\..\mainfiles\images\c\dev\projects\images\image5.png" alt="Picture 5" /></td>
-													<td><img src="..\..\mainfiles\images\c\dev\projects\images\image6.png" alt="Picture 6" /></td>
-													<td><img src="..\..\mainfiles\images\c\dev\projects\images\image7.png" alt="Picture 7" /></td>
-													<td><img src="..\..\mainfiles\images\c\dev\projects\images\image8.png" alt="Picture 8" /></td>
+													<td><img src="..\..\mainfiles\images\c\dev\downloads\images\image5.png" alt="Picture 5" /></td>
+													<td><img src="..\..\mainfiles\images\c\dev\downloads\images\image6.png" alt="Picture 6" /></td>
+													<td><img src="..\..\mainfiles\images\c\dev\downloads\images\image7.png" alt="Picture 7" /></td>
+													<td><img src="..\..\mainfiles\images\c\dev\downloads\images\image8.png" alt="Picture 8" /></td>
 												</tr>
 												<tr>
 													<td>| Project Title 5 |</td>
@@ -308,7 +258,8 @@
 											
 											<!-- ------------------------------------------------------------------------------ -->
 											<!--                               End Content Create                               -->
-											<!-- ------------------------------------------------------------------------------ -->
+											<!-- ------------------------------------------------------------------------------ -->										
+										
 										</td>
 									</tr>
 								</table>
@@ -344,13 +295,13 @@
 											<table class="footer-social-wrap">
 												<tr>
 													<td align="right">
-														<span><img src="..\..\mainfiles\images\t\sundance\image\skin\facebook-social.png" alt="FB" /></span>
-														<span><img src="..\..\mainfiles\images\t\sundance\image\skin\twitter-social.png" alt="TW" /></span>
-														<span><img src="..\..\mainfiles\images\t\sundance\image\skin\tumblr-social.png" alt="TU" /></span>
-														<span><img src="..\..\mainfiles\images\t\sundance\image\skin\twitch-social.png" alt="TB" /></span>
-														<span><img src="..\..\mainfiles\images\t\sundance\image\skin\picarto-social.png" alt="PS" /></span>
-														<span><img src="..\..\mainfiles\images\t\sundance\image\skin\github-social.png" alt="GH" /></span>
-														<span><img src="..\..\mainfiles\images\t\sundance\image\skin\steam-social.png" alt="ST" /></span>
+														<img src="themes\sundance\Image\Skin\facebook-social.png" />Fb&nbsp;
+														<img src="themes\sundance\Image\Skin\twitter-social.png" />Tw&nbsp;
+														<img src="themes\sundance\Image\Skin\tumblr-social.png" />Tr&nbsp;
+														<img src="themes\sundance\Image\Skin\twitch-social.png" />Tt&nbsp;
+														<img src="themes\sundance\Image\Skin\picarto-social.png" />Pt&nbsp;
+														<img src="themes\sundance\Image\Skin\github-social.png" />Gh&nbsp;
+														<img src="themes\sundance\Image\Skin\steam-social.png" />St
 													</td>
 												</tr>
 											</table>
