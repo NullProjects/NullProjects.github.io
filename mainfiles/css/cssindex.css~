@@ -298,6 +298,7 @@ td.LB4Tab:hover{
 	border-style: solid;
 	border-right-style:none;
 	border-collapse: collapse;
+	/*text-align:center;*/
 	background-color: white;
 	border-spacing:0px;
 	padding: 0px;
@@ -307,10 +308,14 @@ td.LB4Tab:hover{
 	padding-bottom: 6px;
 	vertical-align:center;
 	text-align: center;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=72, Color=#000000)";/*IE 8*/
+	text-shadow: -1px 3px 9px #000000;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=135, Color=#000000); /*IE 5.5-7*/
 }
 .LB2Tab{
 	margin: auto;
 	width:112.5px;
+	/*text-align:center;*/
 	background-color: white;
 	border:1px;
 	border-style: solid;
@@ -324,10 +329,14 @@ td.LB4Tab:hover{
 	padding-bottom: 6px;
 	vertical-align:center;
 	text-align: center;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=72, Color=#000000)";/*IE 8*/
+	text-shadow: -1px 3px 9px #000000;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=135, Color=#000000); /*IE 5.5-7*/
 }
 .LB3Tab{
 	margin: auto;
 	width:112.5px;
+	/*text-align:center;*/
 	background-color: white;
 	border:1px;
 	border-style: solid;
@@ -341,12 +350,16 @@ td.LB4Tab:hover{
 	padding-bottom: 6px;
 	vertical-align:center;
 	text-align: center;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=72, Color=#000000)";/*IE 8*/
+	text-shadow: -1px 3px 9px #000000;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=135, Color=#000000); /*IE 5.5-7*/
 }
 .LB4Tab{
 	margin: auto;
 	width:112.5px;
 	border:1px;
 	border-style:solid;
+	/*text-align:center;*/
 	background-color: white;
 	border-right-style:none;
 	border-collapse: collapse;
@@ -357,6 +370,9 @@ td.LB4Tab:hover{
 	padding-bottom: 6px;
 	vertical-align:center;
 	text-align: center;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=72, Color=#000000)";/*IE 8*/
+	text-shadow: -1px 3px 9px #000000;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=135, Color=#000000); /*IE 5.5-7*/
 }
 .broadtab{
 	background-color:white;
