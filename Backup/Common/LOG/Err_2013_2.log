@@ -1,0 +1,114 @@
+08/02/2013 11:40:03 | 
+08/02/2013 11:40:03 | 
+Message : Impossible d'effectuer un cast d'un objet de type 'openElement.DB.DBSrc.DBDatabase' en type 'openElement.WebElement.Page'.
+08/02/2013 11:40:03 | 
+LastTrace : openElement.WebElement.PageConn.DeserializePage(Object fullDataPagePath)
+08/02/2013 11:40:03 | 
+Params : 
+08/02/2013 11:40:03 | 
+MethodeName : Boolean DeserializePage(System.Object)
+08/02/2013 11:40:03 | 
+Stamp : 08/02/2013 11:40:03
+08/02/2013 11:40:03 | 
+
+08/02/2013 11:40:03 | 
+ExTrace : 
+08/02/2013 11:40:03 | 
+à openElement.WebElement.PageConn.DeserializePage(Object fullDataPagePath) dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\WebElement\Page\PageConn.vb:ligne 142
+08/02/2013 11:40:03 | 
+à openElement.WebElement.PageConn.OpenDataPage(String dataPagePath, Rights rights, Boolean withRessourceImport, String templatePath) dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\WebElement\Page\PageConn.vb:ligne 101
+08/02/2013 11:40:03 | 
+
+08/02/2013 11:40:03 | 
+OETrace : 
+08/02/2013 11:40:03 | 
+à openElement.WebElement.PageConn.OpenDataPage(String dataPagePath, Rights rights, Boolean withRessourceImport, String templatePath) dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\WebElement\Page\PageConn.vb:ligne 129
+08/02/2013 11:40:03 | 
+à openElement.WebSite.WorkingSystem.Working_System.PageOpen(String dataPagePath, Rights rights) dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\Class\WebSite\WorkingSystem\WorkingSystem.vb:ligne 165
+08/02/2013 11:40:03 | 
+à openElement.WebSite.WorkingSystem.Working_System.PageOpen(String dataPagePath) dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\Class\WebSite\WorkingSystem\WorkingSystem.vb:ligne 180
+08/02/2013 11:40:03 | 
+à openElement.WebSite.WorkingSystem.Working_System.PageUpdate(List`1 listDataPagePath, Boolean writeHtml, Boolean withLinkMap, Boolean withListAction, Boolean createProject) dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\Class\WebSite\WorkingSystem\WorkingSystem.vb:ligne 244
+08/02/2013 11:40:03 | 
+à openElement.WebSite.WebSiteUpgrade.UpdateAllPage(Boolean createProject) dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\Class\WebSite\WebSiteUpgrade.vb:ligne 214
+08/02/2013 11:40:03 | 
+à openElement.WebSite.WebSiteUpgrade.Start(SiteConfig siteConfig, Boolean createProject) dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\Class\WebSite\WebSiteUpgrade.vb:ligne 160
+08/02/2013 11:40:03 | 
+à openElement.WebSite.WebSiteUpgrade.VersionUpgrade(Boolean createProject) dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\Class\WebSite\WebSiteUpgrade.vb:ligne 394
+08/02/2013 11:40:03 | 
+à openElement.WebSite.WebSite.Open(ActionArg`2 actionArg) dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\Class\WebSite\WebSite.vb:ligne 103
+08/02/2013 11:40:03 | 
+à openElement.WebSite.WebSite._Lambda$__20(ActionArg a0) dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\Class\WebSite\WebSite.vb:ligne 54
+08/02/2013 11:40:03 | 
+à openElement.Wait.RunFunction[TResult](FuncWait`1 action, ActionArg param, String text1, String text2, WaitIconType iconType) dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\Class\Common\Wait.vb:ligne 144
+08/02/2013 11:40:03 | 
+à openElement.WebSite.WebSite.Open(String path, Boolean createProject) dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\Class\WebSite\WebSite.vb:ligne 54
+08/02/2013 11:40:03 | 
+à openElement.WebSite.WebSite.Open() dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\Class\WebSite\WebSite.vb:ligne 265
+08/02/2013 11:40:03 | 
+à openElement.Forms.Main.RibbonCore.RPProject.RPGHome.BBIProjectHomeOpen_ItemClick(Object sender, ItemClickEventArgs e) dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\Form\Main\RibbonItemCore\Project\RPGHome.vb:ligne 39
+08/02/2013 11:40:03 | 
+à openElement.Forms.PageViewFromJs._OpenProject() dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\Form\Page\PageViewFromJs.vb:ligne 22
+08/02/2013 11:40:03 | 
+à openElement.Forms.Main.FrmMain.WndProc(Message& m) dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\Form\Main\FrmMain.vb:ligne 24
+08/02/2013 11:40:03 | 
+à openElement.My.MyApplication.Main(String[] Args) dans 17d14f5c-a337-4978-8281-53493378c1071.vb:ligne 81
+08/02/2013 11:40:03 | 
+
+08/02/2013 11:40:03 | 
+------------------
+08/02/2013 11:40:04 | 
+08/02/2013 11:40:04 | 
+Message : La référence d'objet n'est pas définie à une instance d'un objet.
+08/02/2013 11:40:04 | 
+LastTrace : openElement.WebSite.WorkingSystem.Working_System.PageSave(List`1 listPageConn, Boolean writeHtml, Boolean withLinkMap, Boolean withListAction, List`1& listError)
+08/02/2013 11:40:04 | 
+Params : 
+08/02/2013 11:40:04 | 
+MethodeName : System.Collections.Generic.List`1[openElement.WebElement.PageConn] PageSave(System.Collections.Generic.List`1[openElement.WebElement.PageConn], Boolean, Boolean, Boolean, System.Collections.Generic.List`1[System.String] ByRef)
+08/02/2013 11:40:04 | 
+Stamp : 08/02/2013 11:40:04
+08/02/2013 11:40:04 | 
+
+08/02/2013 11:40:04 | 
+ExTrace : 
+08/02/2013 11:40:04 | 
+à openElement.WebSite.WorkingSystem.Working_System.PageSave(List`1 listPageConn, Boolean writeHtml, Boolean withLinkMap, Boolean withListAction, List`1& listError) dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\Class\WebSite\WorkingSystem\WorkingSystem.vb:ligne 303
+08/02/2013 11:40:04 | 
+à openElement.WebSite.WorkingSystem.Working_System.PageSave(PageConn pageConn, Boolean writeHtml, Boolean withLinkMap, Boolean withListAction) dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\Class\WebSite\WorkingSystem\WorkingSystem.vb:ligne 283
+08/02/2013 11:40:04 | 
+à openElement.WebSite.WorkingSystem.Working_System.PageUpdate(List`1 listDataPagePath, Boolean writeHtml, Boolean withLinkMap, Boolean withListAction, Boolean createProject) dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\Class\WebSite\WorkingSystem\WorkingSystem.vb:ligne 254
+08/02/2013 11:40:04 | 
+
+08/02/2013 11:40:04 | 
+OETrace : 
+08/02/2013 11:40:04 | 
+à openElement.WebSite.WorkingSystem.Working_System.PageUpdate(List`1 listDataPagePath, Boolean writeHtml, Boolean withLinkMap, Boolean withListAction, Boolean createProject) dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\Class\WebSite\WorkingSystem\WorkingSystem.vb:ligne 261
+08/02/2013 11:40:04 | 
+à openElement.WebSite.WebSiteUpgrade.UpdateAllPage(Boolean createProject) dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\Class\WebSite\WebSiteUpgrade.vb:ligne 214
+08/02/2013 11:40:04 | 
+à openElement.WebSite.WebSiteUpgrade.Start(SiteConfig siteConfig, Boolean createProject) dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\Class\WebSite\WebSiteUpgrade.vb:ligne 160
+08/02/2013 11:40:04 | 
+à openElement.WebSite.WebSiteUpgrade.VersionUpgrade(Boolean createProject) dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\Class\WebSite\WebSiteUpgrade.vb:ligne 394
+08/02/2013 11:40:04 | 
+à openElement.WebSite.WebSite.Open(ActionArg`2 actionArg) dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\Class\WebSite\WebSite.vb:ligne 103
+08/02/2013 11:40:04 | 
+à openElement.WebSite.WebSite._Lambda$__20(ActionArg a0) dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\Class\WebSite\WebSite.vb:ligne 54
+08/02/2013 11:40:04 | 
+à openElement.Wait.RunFunction[TResult](FuncWait`1 action, ActionArg param, String text1, String text2, WaitIconType iconType) dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\Class\Common\Wait.vb:ligne 144
+08/02/2013 11:40:04 | 
+à openElement.WebSite.WebSite.Open(String path, Boolean createProject) dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\Class\WebSite\WebSite.vb:ligne 54
+08/02/2013 11:40:04 | 
+à openElement.WebSite.WebSite.Open() dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\Class\WebSite\WebSite.vb:ligne 265
+08/02/2013 11:40:04 | 
+à openElement.Forms.Main.RibbonCore.RPProject.RPGHome.BBIProjectHomeOpen_ItemClick(Object sender, ItemClickEventArgs e) dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\Form\Main\RibbonItemCore\Project\RPGHome.vb:ligne 39
+08/02/2013 11:40:04 | 
+à openElement.Forms.PageViewFromJs._OpenProject() dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\Form\Page\PageViewFromJs.vb:ligne 22
+08/02/2013 11:40:04 | 
+à openElement.Forms.Main.FrmMain.WndProc(Message& m) dans C:\Users\VirtualUserDev\Documents\Visual Studio 2008\Projects\App\OpenElement\openElement\Form\Main\FrmMain.vb:ligne 24
+08/02/2013 11:40:04 | 
+à openElement.My.MyApplication.Main(String[] Args) dans 17d14f5c-a337-4978-8281-53493378c1071.vb:ligne 81
+08/02/2013 11:40:04 | 
+
+08/02/2013 11:40:04 | 
+------------------
