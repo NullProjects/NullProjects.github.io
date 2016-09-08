@@ -219,13 +219,13 @@
 											<table class="footer-social-wrap">
 												<tr>
 													<td align="right">
-														<span><img src="themes\sundance\Image\Skin\facebook-social.png" alt="FACEBOOK" /><span>&nbsp;
-														<span><img src="themes\sundance\Image\Skin\twitter-social.png" alt="TWITTER"/></span>&nbsp;
-														<span><img src="themes\sundance\Image\Skin\tumblr-social.png" alt="TUMBLR"/></span>&nbsp;
-														<span><img src="themes\sundance\Image\Skin\twitch-social.png" alt="TWITCH"/></span>&nbsp;
-														<span><img src="themes\sundance\Image\Skin\picarto-social.png" alt="PICARTO"/></span>&nbsp;
-														<span><img src="themes\sundance\Image\Skin\github-social.png" alt="GITHUB"/></span>&nbsp;
-														<span><img src="themes\sundance\Image\Skin\steam-social.png" alt="STEAM"/></span>
+														<span><img src="themes\sundance\Image\Skin\facebook-social.png" alt="FACEBOOK" /><span>Fb&nbsp;
+														<span><img src="themes\sundance\Image\Skin\twitter-social.png" alt="TWITTER"/></span>TW&nbsp;
+														<span><img src="themes\sundance\Image\Skin\tumblr-social.png" alt="TUMBLR"/></span>Tr&nbsp;
+														<span><img src="themes\sundance\Image\Skin\twitch-social.png" alt="TWITCH"/></span>Tt&nbsp;
+														<span><img src="themes\sundance\Image\Skin\picarto-social.png" alt="PICARTO"/></span>Pt&nbsp;
+														<span><img src="themes\sundance\Image\Skin\github-social.png" alt="GITHUB"/></span>Gh&nbsp;
+														<span><img src="themes\sundance\Image\Skin\steam-social.png" alt="STEAM"/></span>St
 													</td>
 												</tr>
 											</table>

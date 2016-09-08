@@ -115,11 +115,13 @@
 										<td class="L4T">
 											<div class="dropdown">
 												<a href="../../broadcasting/"><button class="dropbtn">BROADCASTING</button></a>
+												<!--
 												<div class="dropdown-content">
-													<a href="../../broadcasting/twitch.html">[NP] Twitch.TV</a>
-													<a href="../../broadcasting/picarto.html">[NP] Picarto.TV</a>
-													<a href="../../broadcasting/p/">Other Broadcasts</a>
+													<a href="../broadcasting/twitch.html">[NP] Twitch.TV</a>
+													<a href="../broadcasting/picarto.html">[NP] Picarto.TV</a>
+													<a href="../broadcasting/p/">Other Broadcasts</a>
 												</div>
+												-->
 											</div>
 										</td>
 									<!-- Top Nav Link 5 -->
@@ -192,9 +194,15 @@
 										<!-- ------------------------------------------------------------------------------ -->
 										<!--
 											<span>
-												01. Project Akina<br />
+												01. Project Akina & Akuno<br />
 												02. Project EOB<br />
-												03. Project EOB 2<br />
+														Project EOB - Search for the Viel(DLC)<br/>
+													 	Project EOB - Lost in the Viel(DLC)<br/>
+													 	Project EOB - Into Darkness(DLC)<br/>
+												03. Project EOB 2: Liberation<br />
+														Project EOB 2 - Lost Worlds(DLC)
+														Project EOB 2 - (DLC)
+														Project EOB 2 - Bringer of Light(DLC)
 												04. Project Gekisen: Rebirth of the Fallen<br />
 												05. Project TFragment<br />
 												06. Project Alison<br />
@@ -203,69 +211,17 @@
 												09. Project MBFramework<br />
 												10. Project TBot Alpha<br />
 												11. Project GitCMS Portal<br />
+												12. Project Lost Tithes
+												13. Project Brotherhood of the Fallen
+												14. Project Dassen Arison
 											</span>
 										-->
-										<!-- ------------------------------------------------------------------------------ -->
-										<!--                                  Table Setup                                   -->
-										<!-- ------------------------------------------------------------------------------ -->
-										<!--
-											<table>
-												<tr>
-													<td>Icon</td>
-													<td>
-														<table>
-															<tr>
-																<td>Welcome...</td>
-																<td>02/12/2016</td>
-															</tr>
-														</table>
-													</td>
-												</tr>
-												<tr>
-													<td>&nbsp;</td>
-													<td>Welcome to the Null Projects development page, this website is currently going through construction stages and not everything works right off the bat such as the log in system and other systems in place. There will be missing content as well for a time and missing pages untill those pages are fully constructed.</td>
-												</tr>
-											</table> -->
-											<!-- <br/> -->
-											<!--
-											<table>
-												<tr>
-													<td>Icon</td>
-													<td>
-														<table>
-															<tr>
-																<td>For more Information &amp; Updates</td>
-																<td>02/12/2016</td>
-															</tr>
-														</table>
-													</td>
-												</tr>
-												<tr>
-													<td>&nbsp;</td>
-													<td>If you would like regular updates as to what is going on with the current null projects team you can join us at our BLOG here or subscribe and like us on facebook and twitter as well. You can also check us out on the forum as well once it is fully operational but as of yet even the website is currently going under construction and structuring process. </td>
-												</tr>
-											</table>
-										<!-- ------------------------------------------------------------------------------ -->
-										<!--                               End Table Setup                                  -->
-										<!-- ------------------------------------------------------------------------------ -->
 
 										<!-- ------------------------------------------------------------------------------ -->
 										<!--                          Under Construction Notice p2                          -->
 										<!-- ------------------------------------------------------------------------------ -->
 											<br/>
-											<p align="center"><strong>....Under construction</strong></p></h3>
-											<br /><span style="italic">... //Index Under Construction</span>
-											<br /><span style="italic">... //Development Under Construction</span>
-											<br /><span style="italic">... //Downloads Under Construction</span>
-											<br /><span style="italic">... //Broadcasting Under Construction</span>
-											<br /><span style="italic">... //Community Under Construction</span>
-											<br /><span style="italic">... //Contact Under Construction</span>
-											<br /><span style="italic">... //Team Under Construction</span>
-											<br /><span style="italic">... //Donate Under Construction</span>
-											<br />
-											<br />
-											<br /><span>In the mean time if you would like to view the <a href="http://twitch.tv/cybergig22" target=_new>twitch</a> or <a href="https://picarto.tv/NullGaming" target=_new>picarto</a> stream channels or check to see if we are streaming you can :)</span>
-											<br /><span>You can also contribute by checking out, sharing or donating to the current donation drive that is going on at our <a href="https://www.gofundme.com/sectorsin" target=_new>GoFundMe</a> area</span><br/><br/><br/><br/>
+	
 											<!-- ------------------------------------------------------------------------------ -->
 											<!--                          End Under Construction Notice p2                      -->
 											<!-- ------------------------------------------------------------------------------ -->
@@ -273,18 +229,18 @@
 											<!--                              Start Content Create                              -->
 											<!-- ------------------------------------------------------------------------------ -->
 											<br />
-											<table>	
+											<table valign="top" align="center" width="100%">	
 												<tr>
-													<td><img src="..\..\mainfiles\images\c\dev\projects\images\gekisen-thumb.png" alt="Project Gekisen" /></td>
-													<td><img src="..\..\mainfiles\images\c\dev\projects\images\akinaakuno-thumb.png" alt="Project Akina & Akuno" /></td>
-													<td><img src="..\..\mainfiles\images\c\dev\projects\images\eob-thumb.png" alt="Project EOB" /></td>
-													<td><img src="..\..\mainfiles\images\c\dev\projects\images\gcms.png" alt="GithubCMS Project" /></td>
+													<td valign="top" align="center"><img src="..\..\mainfiles\images\c\dev\projects\images\gekisen-thumb.png" alt="Project Gekisen" /></td>
+													<td valign="top" align="center"><img src="..\..\mainfiles\images\c\dev\projects\images\akinaakuno-thumb.png" alt="Project Akina & Akuno" /></td>
+													<td valign="top" align="center"><img src="..\..\mainfiles\images\c\dev\projects\images\eob-thumb.png" alt="Project EOB" /></td>
+													<td valign="top" align="center"><img src="..\..\mainfiles\images\c\dev\projects\images\eob2-thumb.png" alt="GithubCMS Project" /></td>
 												</tr>
 												<tr>
-													<td>| Project Gekisen |</td>
-													<td>Project Akina & Akuno |</td>
-													<td>Project EOB |</td>
-													<td>GithubCMS Project |</td>												
+													<td valign="top" align="center">| Project Gekisen |</td>
+													<td valign="top" align="center">Project Akina & Akuno |</td>
+													<td valign="top" align="center">Project EOB |</td>
+													<td valign="top" align="center">Project EOB 2 |</td>												
 												</tr>
 												<tr>
 													<td></td>
@@ -293,16 +249,40 @@
 													<td></td>
 												</tr>
 												<tr>
-													<td><img src="..\..\mainfiles\images\c\dev\projects\images\image5.png" alt="Picture 5" /></td>
-													<td><img src="..\..\mainfiles\images\c\dev\projects\images\image6.png" alt="Picture 6" /></td>
-													<td><img src="..\..\mainfiles\images\c\dev\projects\images\image7.png" alt="Picture 7" /></td>
-													<td><img src="..\..\mainfiles\images\c\dev\projects\images\image8.png" alt="Picture 8" /></td>
+													<td valign="top" align="center"><img src="..\..\mainfiles\images\c\dev\projects\images\TFragment.png" alt="Project TFragment" /></td>
+													<td valign="top" align="center"><img src="..\..\mainfiles\images\c\dev\projects\images\alison.png" alt="Project Alison" /></td>
+													<td valign="top" align="center"><img src="..\..\mainfiles\images\c\dev\projects\images\eframework.png" alt="Epsion Framework" /></td>
+													<td valign="top" align="center"><img src="..\..\mainfiles\images\c\dev\projects\images\gsportal.png" alt="GsPortal" /></td>
 												</tr>
 												<tr>
-													<td>| Project Title 5 |</td>
-													<td>Project Title 6 |</td>
-													<td>Project Title 7 |</td>
-													<td>Project Title 8 |</td>												
+													<td valign="top" align="center">| Project TFragment |</td>
+													<td valign="top" align="center">Project Alison |</td>
+													<td valign="top" align="center">Project Epsion Framework |</td>
+													<td valign="top" align="center">Project GSPortal |</td>												
+												</tr>
+												<tr>
+													<td valign="top" align="center"><img src="..\..\mainfiles\images\c\dev\projects\images\mbframework.png" alt="MBFramework" /></td>
+													<td valign="top" align="center"><img src="..\..\mainfiles\images\c\dev\projects\images\tbotalpha.png" alt="TBot Alpha" /></td>
+													<td valign="top" align="center"><img src="..\..\mainfiles\images\c\dev\projects\images\gitcms.png" alt="GitCMS" /></td>
+													<td valign="top" align="center"><img src="..\..\mainfiles\images\c\dev\projects\images\lost-tithes.png" alt="LostTithes" /></td>
+												</tr>
+												<tr>
+													<td valign="top" align="center">| MBFramework |</td>
+													<td valign="top" align="center">TBot Alpha |</td>
+													<td valign="top" align="center">GitCMS |</td>
+													<td valign="top" align="center">LostTithes |</td>												
+												</tr>
+												<tr>
+													<td valign="top" align="center"><img src="..\..\mainfiles\images\c\dev\projects\images\brotherhoodofthefallen.png" alt="BOTF" /></td>
+													<td valign="top" align="center"><img src="..\..\mainfiles\images\c\dev\projects\images\dasenarison.png" alt="Dasen Arison" /></td>
+													<td valign="top" align="center"><img src="..\..\mainfiles\images\c\dev\projects\images\image15.png" alt="Picture 15" /></td>
+													<td valign="top" align="center"><img src="..\..\mainfiles\images\c\dev\projects\images\image16.png" alt="Picture 16" /></td>
+												</tr>
+												<tr>
+													<td valign="top" align="center">| BOTF |</td>
+													<td valign="top" align="center">Project Dassen Arison |</td>
+													<td valign="top" align="center">Project Title 15 |</td>
+													<td valign="top" align="center">Project Title 16 |</td>												
 												</tr>										
 											</table>
 											
