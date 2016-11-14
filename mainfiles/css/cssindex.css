@@ -162,6 +162,8 @@ td.L1T:hover{
 	background-color:#247BBD;
 	vertical-align:center;
 	border-left-style:none;
+	border-right-style:solid;
+	border-color:#000000;
 }
 td.L2T:hover{
 	background-color:#247BBD;
@@ -205,6 +207,11 @@ td.LB4Tab:hover{
 	margin: auto;
 	width:112.5px;
 	border-left-style:none;
+	border-right-style:solid;
+	border-bottom-style:none;
+	border-top-style:none;
+	border-color:#000000;
+	border-width:1px;
 	/*text-align:center;*/
 	background-color: white;
 	vertical-align:center;
