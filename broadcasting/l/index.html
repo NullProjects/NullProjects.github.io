@@ -1,10 +1,3 @@
-<!-- ------------------------------------------------------------------------------ -->
-<!--    	Copyright by Cybergig22, Null Projects & SZE and the NP Team              -->
-<!--    	This website is free to use by other people just be sure to               -->
-<!--    	leave this copyright notice up here a good place to get this template     -->
-<!--    	from for your own github or other website is @                            -->
-<!--							  		http://nullprojects.github.io/dev/GitCMS                    -->
-<!-- ------------------------------------------------------------------------------ -->
 <!DOCTYPE html>
 <html lang="en-us">
 <!-- <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-us"> -->
@@ -22,7 +15,6 @@
 		<meta name="author" content="cybergig22" />
 		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- ------------------------------------------------------------------------------ -->
 		<!-- End Meta Section -->
 		<!-- ------------------------------------------------------------------------------ -->
@@ -33,8 +25,7 @@
 		<!-- ------------------------------------------------------------------------------ -->
 		<link id="maincss" rel="stylesheet" type="text/css" href="../mainfiles/css/cssindex.css" />
 		<link id="dropdowncss" rel="stylesheet" type="text/css" href="../mainfiles/css/dropdown.css" />
-		<link id="admin-css" rel="stylesheet" type="text/css" href="../mainfiles/css/admin-style.css" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link id="broadtabs" rel="stylesheet" type="text/css" href="../mainfiles/css/broadtabs.css" />
 		<!-- ------------------------------------------------------------------------------ -->
 		<!-- End Link Section / CSS Section -->
 		<!-- ------------------------------------------------------------------------------ -->
@@ -43,16 +34,16 @@
 		<!-- ------------------------------------------------------------------------------ -->
 		<!-- JavaScript Section -->
 		<!-- ------------------------------------------------------------------------------ -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+		<!--
+		<script type="text/javascript" src="../mainfiles/javascript/broadcastingtabs.js"></script>
+		<script type="text/javascript" src="../mainfiles/javascript/broadcastingtabs-fade.js"></script>
+		-->
 		<!-- ------------------------------------------------------------------------------ -->
 		<!-- End JavaScript Section -->
 		<!-- ------------------------------------------------------------------------------ -->
 	</head>
 	<body>
-<div align="center">
-		<header>
+		<div align="center">
 		<table class="website-wrap">
 			<tr>
 				<td>
@@ -62,11 +53,13 @@
 								<table class="login-wrap">
 									<tr width="100%">
 										<td class="login-wrap-social">
-											<span><a href="https://www.facebook.com/nullprojects/" target=_new><img src="..\mainfiles\themes\sundance\images\socialbar\facebook-social.png" width="30px" height="30px" /></a></span>
-											<span><a href="https://twitter.com/nullprojects" target=_new><img src="..\mainfiles\themes\sundance\images\socialbar\twitter-social.png" width="30px" height="30px" /></a></span>
-											<span><a href="https://nullprojects.tumblr.com/" target=_new><img src="..\mainfiles\themes\sundance\images\socialbar\tumblr-social.png" width="30px" height="30px" /></a></span>
-											<span><a href="https://github.com/NullProjects/" target=_new><img src="..\mainfiles\themes\sundance\images\socialbar\github-social.png" width="30px" height="30px" /></a></span>
-											<span><a href="https://steamcommunity.com/groups/Null-Gaming" target=_new><img src="..\mainfiles\themes\sundance\images\socialbar\steam-social.png" width="30px" height="30px" /></a></span>
+											<span><img src="themes\sundance\Image\Skin\facebook-social.png" />Fb</span>
+											<span><img src="themes\sundance\Image\Skin\twitter-social.png" />Tw</span>
+											<span><img src="themes\sundance\Image\Skin\tumblr-social.png" />Tr</span>
+											<span><img src="themes\sundance\Image\Skin\twitch-social.png" />Tt</span>
+											<span><img src="themes\sundance\Image\Skin\picarto-social.png" />Pt</span>
+											<span><img src="themes\sundance\Image\Skin\github-social.png" />Gh</span>
+											<span><img src="themes\sundance\Image\Skin\steam-social.png" />St</span>
 										</td>
 										<td class="login-btn-wrap"><a href="https://github.com/login" class="login-button" target="_new">Login</a></td>
 										<td class="login-btn-wrap"><a href="https://github.com/join" class="login-button" target="_new">Register</a></td>
@@ -100,26 +93,28 @@
 									<!-- Top Nav Link 2 -->
 										<td class="L2T">
 											<div class="dropdown">
-												<a href="http://nullprojects.github.io/dev/" target=_new><button class="dropbtn">DEVELOPMENT</button></a>
+												<a href="../dev/"><button class="dropbtn">DEVELOPMENT</button></a>
 												<div class="dropdown-content">
-													<a href="http://nullprojects.github.io/dev/p/" target=_new>Projects</a>
-													<a href="http://nullprojects.github.io/dev/d/" target=_new>Downlaods</a>
+													<a href="../dev/p/">Projects</a>
+													<a href="../dev/d/">Downlaods</a>
 												</div>
 											</div>
 										</td>
 									<!-- Top Nav Link 3 -->
 										<td class="L3T">
-											<a href="#"><button class="dropbtn">SHOP</button></a>
+											<a href="http://cybergig22.gamefanshop.com"><button class="dropbtn">SHOP</button></a>
 										</td>
 									<!-- Top Nav Link 4 -->
 										<td class="L4T">
 											<div class="dropdown">
 												<a href="../broadcasting/"><button class="dropbtn">BROADCASTING</button></a>
+												<!--
 												<div class="dropdown-content">
-													<a href="../broadcasting/ngntv-team/index.html">NGNTV Broadcasts</a>
-													<a href="../broadcasting/listings/">Broadcast Listings</a>
-													<a href="../broadcasting/groups/">Brodcast Groups</a>
+													<a href="../broadcasting/twitch.html">[NP] Twitch.TV</a>
+													<a href="../broadcasting/picarto.html">[NP] Picarto.TV</a>
+													<a href="../broadcasting/p/">Other Broadcasts</a>
 												</div>
+												-->
 											</div>
 										</td>
 									<!-- Top Nav Link 5 -->
@@ -127,10 +122,10 @@
 											<div class="dropdown">
 												<a href="../community/"><button class="dropbtn">COMMUNITY</button></a>
 												<div class="dropdown-content">
-													<a href="#">Forums</a>
+													<a href="http://s15.zetaboards.com/Null_Projects/index/">Forums</a>
 													<a href="../community/c/">Chat</a>
 													<a href="../community/g/">Groups</a>
-													<a href="#">Blog</a>
+													<a href="http://nullprojects.tumblr.com">Blog</a>
 												</div>
 											</div>
 										</td>
@@ -151,17 +146,7 @@
 										</td>
 									<!-- Top Nav Link 8 -->
 										<td class="L8T">
-											<div class="dropdown">
-												<a href="../donate/"><button class="dropbtn">DONATE</button></a>
-													<!--
-													<div class="dropdown-content">
-														<a href="donate/index.html">Donations</a>
-														<a href="donate/commission.html">Commissions</a>
-														<a href="donate/fundraiser.html">Fundraising</a>
-														<a href="donate/crowdfunding.html">Crowdfunding</a>
-													</div>
-													-->
-											</div>
+											<a href="../donate/"><button class="dropbtn">DONATE</button></a>
 										</td>
 									</tr>
 								</table>
@@ -170,15 +155,12 @@
 					</table>
 				</td>
 			</tr>
-		</table>
-	</header>
-		<table class="website-wrap">
 			<tr>
 				<td>
 					<table class="scbgfill">
 						<tr>
 							<!-- Start Navigation -->
-							<!-- Start Side Navigation Area On This Line -->
+
 							<!-- End Navagation -->
 							<!-- Start Content -->
 							<td class="content-wrap"><br/>
@@ -187,56 +169,55 @@
 										<td class="uc02">This website is under construction, please check back later to see if &amp; when the website is ready :)</td>
 									</tr>
 								</table>
-								<br/>
-								<table width="90%" align="center">
-									<tr>
-										<td>
-											<br/>
-											<div>
-											<table class="admin-main-width">
-												<tr>
-													<td class="admin-nav-width">
-														<strong>Admin Navigation</strong><br/>
-														<nav>
-															- <a href="">User Management</a><br/>
-															- <a href="">Content Mangement</a><br/>
-															- <a href="">Addon Management</a><br/>
-															- <a href="">Theme Management</a><br/>
-															- <a href="">Social Mangement</a><br/>
-															<br/>
-															<strong>Broadcast Management</strong>
-															<br/>
-															- <a href="">Broadcast Magement</a><br/>
-															- <a href="">Groups Management</a><br/>
-															- <a href="">Chat Management</a><br/>
-															<!--
-															- <a href="">Link 6</a><br/>
-															-->
-															<br/>
-														</nav>
-													</td>
-													<td class="admin-content-width">
-														Admin Content<br/><br/><br/><br/><br/><br/>
-													</td>
-												</tr>
-											</table>
-											</div>
-											<br/>
-										</td>
-									</tr>
-								</table>
+								<br />
+								<div class="broadcasting-content">
+									<div class="broadtab">
+										<table>
+											<tr>
+												<td class="LB1Tab"><a href="#">INFORMATION</a></td>
+												<td class="LB2Tab"><a href="http://twitch.tv/cybergig22" target=_new>Cybergig22</a></td>
+												<td class="LB3Tab"><a href="http://twitch.tv/jesterdclown81" target=_new>DrJesterMD</a></td>
+												<td class="LB4Tab"><a href="http://twitch.tv/deadpooligan1990" target=_new>Deadpooligan</a></td>
+												<td class="LB4Tab"><a href="http://twitch.tv/tactuxtv" target=_new>TactuxTV</a></td>
+											</tr>
+										</table>
+									</div>
+								<br />
+									<table width="90%" align="center">
+										<tr>
+											<td>
+  												<table width="95%">
+  													<tr>
+														<td>
+														<p>
+														There will be multiple streamers working towards a fundraiser we are working on, schedules may vary to different times during the day but there will be at least 1 or 2 people with scheduled stream times.
+														This area here will be information based on the fundraiser events and what is going on broadcasting wise. At current we only have 1 developer streamer which also plays video games and the other streamers
+														play video games. With that said 1 or 2 might stick to regular streaming hours at least for a little while, we are still working the details out as to the fundraiser, crowdfunding and comission information we are gearing up for.
+														However with that in mind please allow some time for information to update and if you want current information ask Cybergig22 via by twitch messages, private message or whatever via Facebook, Twitch Messages, Steam group or whatever.
+														We will be looking at messages on regular basis to try to keep everyone up to date as to what is going on. If you would also like you can come into <a href="http://twitch.tv/cybergig22" target=_new>Cybergig22's Stream</a>.
+														</p>
+														<p>
+														More information to come...
+														</p>
+														</td>
+  														<!-- <td valign="top"><iframe src="http://player.twitch.tv/?channel=cybergig22" frameborder="0" scrolling="no" height="268" width="510"></iframe></td> -->
+  														<!-- <td valign="top"><iframe src="http://www.twitch.tv/cybergig22/chat?popout=" frameborder="0" scrolling="no" height="500" width="350"></iframe></td> -->
+  													</tr>
+  												</table>
+											</td>
+										</tr>
+									</table>
+								<br />	
+								</div>
+								<br />
 							</td>
 							<!-- End Content -->
 						</tr>
 					</table>
 				</td>
 			</tr>
-		</table>
-			<footer>
-			<table class="website-wrap">
 			<tr>
 				<td>
-					
 					<table class="footer-wrap-main">
 						<tr>
 							<!-- Start Footer Links -->
@@ -261,11 +242,13 @@
 											<table class="footer-social-wrap">
 												<tr>
 													<td align="right">
-														<span><a href="https://www.facebook.com/nullprojects/" target=_new><img src="..\mainfiles\themes\sundance\images\socialbar\facebook-social.png" width="30px" height="30px" /></a></span>
-														<span><a href="https://twitter.com/nullprojects" target=_new><img src="..\mainfiles\themes\sundance\images\socialbar\twitter-social.png" width="30px" height="30px" /></a></span>
-														<span><a href="https://nullprojects.tumblr.com/" target=_new><img src="..\mainfiles\themes\sundance\images\socialbar\tumblr-social.png" width="30px" height="30px" /></a></span>
-														<span><a href="https://github.com/NullProjects/" target=_new><img src="..\mainfiles\themes\sundance\images\socialbar\github-social.png" width="30px" height="30px" /></a></span>
-														<span><a href="https://steamcommunity.com/groups/Null-Gaming" target=_new><img src="..\mainfiles\themes\sundance\images\socialbar\steam-social.png" width="30px" height="30px" /></a></span>
+														<img src="themes\sundance\Image\Skin\facebook-social.png" />Fb&nbsp;
+														<img src="themes\sundance\Image\Skin\twitter-social.png" />Tw&nbsp;
+														<img src="themes\sundance\Image\Skin\tumblr-social.png" />Tr&nbsp;
+														<img src="themes\sundance\Image\Skin\twitch-social.png" />Tt&nbsp;
+														<img src="themes\sundance\Image\Skin\picarto-social.png" />Pt&nbsp;
+														<img src="themes\sundance\Image\Skin\github-social.png" />Gh&nbsp;
+														<img src="themes\sundance\Image\Skin\steam-social.png" />St
 													</td>
 												</tr>
 											</table>
@@ -277,11 +260,7 @@
 						</tr>
 					</table>
 				</td>
-				
 			</tr>
-			</table>
-		</footer>
-		<table class="website-wrap">
 			<tr>
 				<td class="copyrightbg" align="center">
 					<table class="copyrightbg">
