@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<!-- <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-us"> -->
+	<head>
+		<title>Null Projects Github</title>
+
+		<!-- ------------------------------------------------------------------------------ -->
+		<!-- Meta Section -->
+		<!-- ------------------------------------------------------------------------------ -->
+		<meta charset="utf-8" />
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="description" content="" />
+		<meta name="author" content="cybergig22" />
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<!-- ------------------------------------------------------------------------------ -->
+		<!-- End Meta Section -->
+		<!-- ------------------------------------------------------------------------------ -->
+
+
+		<!-- ------------------------------------------------------------------------------ -->
+		<!-- Link Section / CSS Section -->
+		<!-- ------------------------------------------------------------------------------ -->
+		<link id="maincss" rel="stylesheet" type="text/css" href="../mainfiles/css/cssindex.css" />
+		<link id="dropdowncss" rel="stylesheet" type="text/css" href="../mainfiles/css/dropdown.css" />
+		<link id="broadtabs" rel="stylesheet" type="text/css" href="../mainfiles/css/broadtabs.css" />
+		<!-- ------------------------------------------------------------------------------ -->
+		<!-- End Link Section / CSS Section -->
+		<!-- ------------------------------------------------------------------------------ -->
+
+
+		<!-- ------------------------------------------------------------------------------ -->
+		<!-- JavaScript Section -->
+		<!-- ------------------------------------------------------------------------------ -->
+		<!--
+		<script type="text/javascript" src="../mainfiles/javascript/broadcastingtabs.js"></script>
+		<script type="text/javascript" src="../mainfiles/javascript/broadcastingtabs-fade.js"></script>
+		-->
+		<!-- ------------------------------------------------------------------------------ -->
+		<!-- End JavaScript Section -->
+		<!-- ------------------------------------------------------------------------------ -->
+	</head>
+	<body>
+		<div align="center">
+		<table class="website-wrap">
+			<tr>
+				<td>
+					<table class="login-wrap">
+						<tr>
+							<td>
+								<table class="login-wrap">
+									<tr width="100%">
+										<td class="login-wrap-social">
+											<span><img src="themes\sundance\Image\Skin\facebook-social.png" />Fb</span>
+											<span><img src="themes\sundance\Image\Skin\twitter-social.png" />Tw</span>
+											<span><img src="themes\sundance\Image\Skin\tumblr-social.png" />Tr</span>
+											<span><img src="themes\sundance\Image\Skin\twitch-social.png" />Tt</span>
+											<span><img src="themes\sundance\Image\Skin\picarto-social.png" />Pt</span>
+											<span><img src="themes\sundance\Image\Skin\github-social.png" />Gh</span>
+											<span><img src="themes\sundance\Image\Skin\steam-social.png" />St</span>
+										</td>
+										<td class="login-btn-wrap"><a href="https://github.com/login" class="login-button" target="_new">Login</a></td>
+										<td class="login-btn-wrap"><a href="https://github.com/join" class="login-button" target="_new">Register</a></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table class="header-wrap">
+						<tr>
+							<td class="header-text"><h1>Null Projects</h1></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table>
+						<tr>
+							<td>
+								<table class="tnav-wrap">
+									<tr class="TTLinks ">
+									<!-- Top Nav Link 1 -->
+										<td class="L1T">
+											<a href="../index.html"><button class="dropbtn">HOME</button></a>
+										</td>
+									<!-- Top Nav Link 2 -->
+										<td class="L2T">
+											<div class="dropdown">
+												<a href="../dev/"><button class="dropbtn">DEVELOPMENT</button></a>
+												<div class="dropdown-content">
+													<a href="../dev/p/">Projects</a>
+													<a href="../dev/d/">Downlaods</a>
+												</div>
+											</div>
+										</td>
+									<!-- Top Nav Link 3 -->
+										<td class="L3T">
+											<a href="http://cybergig22.gamefanshop.com"><button class="dropbtn">SHOP</button></a>
+										</td>
+									<!-- Top Nav Link 4 -->
+										<td class="L4T">
+											<div class="dropdown">
+												<a href="../broadcasting/"><button class="dropbtn">BROADCASTING</button></a>
+												<div class="dropdown-content">
+													<a href="../broadcasting/twitch.html">[NP] Twitch.TV</a>
+													<a href="../broadcasting/picarto.html">[NP] Picarto.TV</a>
+													<a href="../broadcasting/p/">Other Broadcasts</a>
+												</div>
+											</div>
+										</td>
+									<!-- Top Nav Link 5 -->
+										<td class="L5T">
+											<div class="dropdown">
+												<a href="../community/"><button class="dropbtn">COMMUNITY</button></a>
+												<div class="dropdown-content">
+													<a href="http://s15.zetaboards.com/Null_Projects/index/">Forums</a>
+													<a href="../community/c/">Chat</a>
+													<a href="../community/g/">Groups</a>
+													<a href="http://nullprojects.tumblr.com">Blog</a>
+												</div>
+											</div>
+										</td>
+									<!-- Top Nav Link 6 -->
+										<td class="L6T">
+											<div class="dropdown">
+												<a href="../about/"><button class="dropbtn">ABOUT US</button></a>
+												<div class="dropdown-content">
+													<!--<a href="#">About Us</a>-->
+													<a href="../about/team/">Team Members</a>
+													<a href="../about/tos/">TOS</a>
+												</div>
+											</div>
+										</td>
+									<!-- Top Nav Link 7 -->
+										<td class="L7T">
+											<a href="../contact/"><button class="dropbtn">CONTACT US</button></a>
+										</td>
+									<!-- Top Nav Link 8 -->
+										<td class="L8T">
+											<a href="../donate/"><button class="dropbtn">DONATE</button></a>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table class="scbgfill">
+						<tr>
+							<!-- Start Navigation -->
+
+							<!-- End Navagation -->
+							<!-- Start Content -->
+							<td class="content-wrap"><br/>
+								<table class="uc01">
+									<tr>
+										<td class="uc02">This website is under construction, please check back later to see if &amp; when the website is ready :)</td>
+									</tr>
+								</table>
+								<br />
+								<table>
+									<tr>
+										<td class="LB1Tab">INFORMATION</td>
+										<td class="LB2Tab">TWITCH</td>
+										<td class="LB3Tab">PICARTO</td>
+										<td class="LB4Tab">YOUTUBE</td>							
+									</tr>
+								</table>
+								<br />
+								<table width="90%" align="center">
+									<tr>
+										<td>
+  											<table width="95%">
+  												<tr>
+  													<td valign="top"><iframe src="http://player.twitch.tv/?channel=cybergig22" frameborder="0" scrolling="no" height="268" width="510"></iframe></td>
+  													<td valign="top"><iframe src="http://www.twitch.tv/cybergig22/chat?popout=" frameborder="0" scrolling="no" height="500" width="350"></iframe></td>
+  												</tr>
+  											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+							<!-- End Content -->
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table class="footer-wrap-main">
+						<tr>
+							<!-- Start Footer Links -->
+							<td class="footer-wrap-main">
+								<table class="footer-wrap" align="center">
+									<tr>
+										<td class="footer-wrap-bg2">
+											<table class="footer-links-wrap">
+												<tr>
+													<td width="10px">About Us</td>
+													<td width="10px">Community</td>
+													<td width="10px">Careers</td>
+												</tr>
+												<tr>
+													<td width="10px">Information<br/>Donation Drive<br/>Support<br/>Projects</td>
+													<td width="10px">Forum<br/>Chat<br/>Groups<br/>Member Profiles</td>
+													<td width="10px">Information<br/>Benefits<br/>Jobs<br/>Apply</td>
+												</tr>
+											</table>
+										</td>
+										<td class="footer-image-wrapbg">
+											<table class="footer-social-wrap">
+												<tr>
+													<td align="right">
+														<img src="themes\sundance\Image\Skin\facebook-social.png" />Fb&nbsp;
+														<img src="themes\sundance\Image\Skin\twitter-social.png" />Tw&nbsp;
+														<img src="themes\sundance\Image\Skin\tumblr-social.png" />Tr&nbsp;
+														<img src="themes\sundance\Image\Skin\twitch-social.png" />Tt&nbsp;
+														<img src="themes\sundance\Image\Skin\picarto-social.png" />Pt&nbsp;
+														<img src="themes\sundance\Image\Skin\github-social.png" />Gh&nbsp;
+														<img src="themes\sundance\Image\Skin\steam-social.png" />St
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+							<!-- End Footer Links -->
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td class="copyrightbg" align="center">
+					<table class="copyrightbg">
+						<tr>
+							<!-- Start Copyright -->
+							<td>
+								<p>&copy; Copyright by Null Projects &amp; SZE 2004 - 2016<!-- <br /> Co-Partnered with Canyon Springs Studios --></p>
+							</td>
+							<!-- End Copyright -->
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		</div>
+	</body>
+</html>
