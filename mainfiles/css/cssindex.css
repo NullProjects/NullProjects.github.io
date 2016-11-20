@@ -31,10 +31,21 @@ body {
 	border: 1px;
 	border-style: solid;
 	border-collapse: collapse;
-	width: 900px;
-	border-top-style:none;
-	background-color:#ffffff;
+             width: 900px;
+             /* max-width: 80px; */
+             /* min-width: 20%; */
+             margin: 0 auto;
+	border-top-style: none;
+	background-color: #ffffff;
 }
+/*
+#full-wrap{
+    max-width: 80%;
+    min-width:20%;
+    margin: 0 auto;
+}
+*/
+
 /* Link CSS */
 /*
 a:link, a:visited {

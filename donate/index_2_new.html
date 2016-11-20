@@ -31,7 +31,7 @@
 		<link id="maincss" rel="stylesheet" type="text/css" href="../mainfiles/css/cssindex.css" />
 		<link id="dropdowncss" rel="stylesheet" type="text/css" href="../mainfiles/css/dropdown.css" />
 		<link id="broadtabs" rel="stylesheet" type="text/css" href="../mainfiles/css/broadtabs.css" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+		<link id="bootstrap" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
                            <!-- <link rel="bootstrap-css" rel="stylesheet" type="text/css" href="../mainfiles/css/bootstrap/3.3.7/css/bootstrap.min.css" />
                            <!-- <link rel="twitch-online" rel="stylesheet" type="text/css" href="../mainfiles/css/twitch-online.css" /> -->
 
@@ -96,86 +96,20 @@
                     </tr>
                     <tr>
                         <td>
-                            <table>
-                                <tr>
-                                    <td>
-                                        <table class="tnav-wrap">
-                                            <tr class="TTLinks ">
-                                                <!-- Top Nav Link 1 -->
-                                                <td class="L1T">
-                                                    <a href="../index.html"><button class="dropbtn">HOME</button></a>
-                                                </td>
-                                                <!-- Top Nav Link 2 -->
-                                                <td class="L2T">
-                                                    <div class="dropdown">
-                                                        <a href="http://nullprojects.github.io/dev/" target=_new><button class="dropbtn">DEVELOPMENT</button></a>
-                                                        <div class="dropdown-content">
-                                                            <a href="http://nullprojects.github.io/dev/p/" target=_new>Projects</a>
-                                                            <a href="http://nullprojects.github.io/dev/d/" target=_new>Downlaods</a>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <!-- Top Nav Link 3 -->
-                                                <td class="L3T">
-                                                    <a href="#"><button class="dropbtn">SHOP</button></a>
-                                                </td>
-                                                <!-- Top Nav Link 4 -->
-                                                <td class="L4T">
-                                                    <div class="dropdown">
-                                                        <a href="../broadcasting/"><button class="dropbtn">BROADCASTING</button></a>
-                                                        <div class="dropdown-content">
-                                                            <a href="../broadcasting/ngntv-team/index.html">NGNTV Broadcasts</a>
-                                                            <a href="../broadcasting/listings/">Broadcast Listings</a>
-                                                            <a href="../broadcasting/groups/">Brodcast Groups</a>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <!-- Top Nav Link 5 -->
-                                                <td class="L5T">
-                                                    <div class="dropdown">
-                                                        <a href="../community/"><button class="dropbtn">COMMUNITY</button></a>
-                                                        <div class="dropdown-content">
-                                                            <a href="#">Forums</a>
-                                                            <a href="../community/c/">Chat</a>
-                                                            <a href="../community/g/">Groups</a>
-                                                            <a href="#">Blog</a>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <!-- Top Nav Link 6 -->
-                                                <td class="L6T">
-                                                    <div class="dropdown">
-                                                        <a href="../about/"><button class="dropbtn">ABOUT US</button></a>
-                                                        <div class="dropdown-content">
-                                                            <!--<a href="#">About Us</a>-->
-                                                            <a href="../about/team/">Team Members</a>
-                                                            <a href="../about/tos/">TOS</a>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <!-- Top Nav Link 7 -->
-                                                <td class="L7T">
-                                                    <a href="../contact/"><button class="dropbtn">CONTACT US</button></a>
-                                                </td>
-                                                <!-- Top Nav Link 8 -->
-                                                <td class="L8T">
-                                                    <div class="dropdown">
-                                                        <a href="../donate/"><button class="dropbtn">DONATE</button></a>
-                                                        <!--
-                                                        <div class="dropdown-content">
-                                                            <a href="donate/index.html">Donations</a>
-                                                            <a href="donate/commission.html">Commissions</a>
-                                                            <a href="donate/fundraiser.html">Fundraising</a>
-                                                            <a href="donate/crowdfunding.html">Crowdfunding</a>
-                                                        </div>
-                                                        -->
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </table>
+                            <nav class="navbar navbar-inverse">
+                                <div class="container-fluid">
+                                    <ul id="navigation" class="nav navbar-nav">
+                                        <li><a href="../" alt="Home"/>HOME</a></li>
+                                        <li><a href="http://nullprojects.github.io/dev/" alt="Project Development" target="_new"/>DEVELOPMENT</a></li>
+                                        <li><a href="#" alt="Shop"/>SHOP</a></li>
+                                        <li><a href="../broadcasting/" alt="Broadcasting"/>BROADCASTING</a></li>
+                                        <li><a href="../community/" alt="Community"/>COMMUNITY</a></li>
+                                        <li><a href="../about/" alt="About Us"/>ABOUT US</a></li>
+                                        <li><a href="../contact/" alt="Contact Us"/>CONTACT US</a></li>
+                                        <li class="active"><a href="../donate/" alt="Donate"/>DONATE</a></li>
+                                     </ul>
+                                 </div>
+                             </nav>    
                         </td>
                     </tr>
                 </table>
