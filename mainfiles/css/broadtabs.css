@@ -4,10 +4,13 @@
 ****    	This website is free to use by other people just be sure to               ****
 ****    	leave this copyright notice up here a good place to get this template     ****
 ****    	from for your own github or other website is @                            ****
-****							  		http://nullprojects.github.io/dev/GitCMS                    ****
+****					  http://nullprojects.github.io/dev/GitCMS                    ****
 ****************************************************************************************
 ***************************************************************************************/
+
+
 /* Style the list */
+
 ul.tab {
     list-style-type: none;
     margin: 0;
@@ -17,10 +20,16 @@ ul.tab {
     background-color: #f1f1f1;
 }
 
+
 /* Float the list items side by side */
-ul.tab li {float: left;}
+
+ul.tab li {
+    float: left;
+}
+
 
 /* Style the links inside the list items */
+
 ul.tab li a {
     display: inline-block;
     color: black;
@@ -31,13 +40,24 @@ ul.tab li a {
     font-size: 17px;
 }
 
+
 /* Change background color of links on hover */
-ul.tab li a:hover {background-color: #ddd;}
+
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
 
 /* Create an active/current tablink class */
-ul.tab li a:focus, .active {background-color: #ccc;}
+
+ul.tab li a:focus,
+.active {
+    background-color: #ccc;
+}
+
 
 /* Style the tab content */
+
 .tabcontent {
     display: none;
     padding: 6px 12px;

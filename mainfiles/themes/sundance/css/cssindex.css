@@ -15,26 +15,52 @@
 body {
 /*    background-color: #ccffcc;
 */
-	background-color: #ffffff;
-	background: -moz-linear-gradient(0deg, #FEFEFE 0, #247BBD 100%);/* FF3.6+ */
-	background: -webkit-gradient(linear, 0deg, color-stop(0, FEFEFE), color-stop(100%, 247BBD));/* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(0deg, #FEFEFE 0, #247BBD 100%);/* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(0deg, #FEFEFE 0, #247BBD 100%);/* Opera 11.10+ */
-	background: -ms-linear-gradient(0deg, #FEFEFE 0, #247BBD 100%);/* IE10+ */
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1'); /* for IE */
-	background: linear-gradient(0deg, #FEFEFE 0, #247BBD 100%);/* W3C */
-	background-repeat:none;
-	height:100%;
-	font-size:12px;
+    background-color: #ffffff;
+    background: -moz-linear-gradient(0deg, #FEFEFE 0, #247BBD 100%);/* FF3.6+ */
+    background: -webkit-gradient(linear, 0deg, color-stop(0, FEFEFE), color-stop(100%, 247BBD));/* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(0deg, #FEFEFE 0, #247BBD 100%);/* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(0deg, #FEFEFE 0, #247BBD 100%);/* Opera 11.10+ */
+    background: -ms-linear-gradient(0deg, #FEFEFE 0, #247BBD 100%);/* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1'); /* for IE */
+    background: linear-gradient(0deg, #FEFEFE 0, #247BBD 100%);/* W3C */
+    background-repeat:none;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+    height:100%;
+    font-size:12px;
 }
 .website-wrap{
-	border: 1px;
-	border-style: solid;
-	border-collapse: collapse;
-	width: 900px;
-	border-top-style:none;
-	background-color:#ffffff;
+    border: 1px;
+    border-style: solid;
+    border-collapse: collapse;
+    width: 900px;
+    /* max-width: 80px; */
+    /* min-width: 20%; */
+    margin: 0 auto;
+    border-top-style: none;
+    background-color: #ffffff;
 }
+.soocial-icons{
+    max-width:30px;
+    max-height:30px;
+}
+.logo-img{
+    width:100%;
+    max-width:100%;
+    max-height:100%;
+}
+.soocial-icons-align{
+    text-align: right;
+}
+/*
+#full-wrap{
+    max-width: 80%;
+    min-width:20%;
+    margin: 0 auto;
+}
+*/
+
 /* Link CSS */
 /*
 a:link, a:visited {
@@ -58,23 +84,23 @@ a.tnav:link, a.tnav:visited{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-	width:100%;
+    width:100%;
 }
 a.tnav:hover, a.tnav:active {
-	background-color: #247BBD;
-	color: #ffffff;
+    background-color: #247BBD;
+    color: #ffffff;
 }
 a.snav:link, a.snav:visited{
-	color: #000000;
-	text-decoration: none;
-	display: inline-block;
-	width:100%;
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    width:100%;
 }
 a.snav:hover, a.snav:active{
-	background-color: #247BBD;
-	color: #ffffff;
-	width:100%;
-	text-decoration: none;
+    background-color: #247BBD;
+    color: #ffffff;
+    width:100%;
+    text-decoration: none;
 }
 a.socialicob:link,a.socialicob:visited{
 
@@ -88,54 +114,79 @@ a.socialicob:hover,a.socialicob:active{
 *********            LOGIN SECTION               ********
 *********************************************************/
 .login-wrap{
-	background-color: #247BBD;
-	width: 100%;
-	height: 40px;
-	padding:0px;
+    background-color: #247BBD;
+    width: 100%;
+    height: 100%;
+    padding:0px;
 }
 .login-wrap-social{
-	width: 75%;
+    width: 75%;
 }
+
 .login-btn-wrap{
-	background-color:#247BBD;
-	color:#000000;
-	border: 1px;
-	border-style:solid;
-	width:112.5px;
-	text-align: center;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=72, Color=#000000)";/*IE 8*/
-	text-shadow: -1px 3px 9px #000000;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
-	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=135, Color=#000000); /*IE 5.5-7*/
+    background-color:#247BBD;
+    color:#000000;
+    border: 1px;
+    border-style:solid;
+    width:112.5px;
+    text-align: center;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=72, Color=#000000)";
+    text-shadow: -1px 3px 9px #000000;
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=135, Color=#000000);
 
 }
-td.login-btn-wrap:hover{
-	background-color:#ffffff;
-	color:#000000;
+.login-btn{
+    background-color: #247BBD;
+    color: #000000;
+    padding: 10px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    width: 112px;  
 }
+.login-btn:hover{
+    background-color: #ffffff;
+}
+td.login-btn-wrap:hover{
+    background-color:#ffffff;
+    color:#000000;
+}
+
+.login-button-text{
+    transform:translate(3px,0);
+    color:#ffffff;
+}
+a.login-button-text:hover{
+    transform:translate(3px,0);
+    color:#000000;
+}
+
 a.login-button:link, a.login-button:visited{
     background-color: #247BBD;
     color: #ffffff;
-    padding:6px;
+    padding:0px;
     text-align: center;
+    vertical-align:center;
     text-decoration: none;
     display: inline-block;
-	width:83%;
+    width:100%;
+    height:100%;
 }
 a.login-button:hover, a.login-button:active{
-	background-color:#ffffff;
-	color:#000000;
+    background-color:#ffffff;
+    color:#000000;
 }
 
 /********************************************************
 *********            HEADER SECTION              ********
 *********************************************************/
 .header-wrap{
-	background-color:#ffffff;
-	width: 100%;
-	height: 130px;
+    background-color:#ffffff;
+    width: 100%;
+    height: 130px;
 }
 .header-text{
-	text-align:center;
+    text-align:center;
 }
 
 /********************************************************
@@ -144,153 +195,38 @@ a.login-button:hover, a.login-button:active{
 /* Table Top Links */
 
 .tnav-wrap{
-	height:35px;
-	border: 1px;
-	border-style: solid;
-	border-collapse: collapse;
-	border-left-style:none;
-	border-right-style:none;
-	padding:0px;
-	width:100%;
+    height:35px;
+    border: 1px;
+    border-style: solid;
+    border-collapse: collapse;
+    border-left-style:none;
+    border-right-style:none;
+    padding:0px;
+    width:100%;
 }
 .TTLinks{
-	border-left-style:none;
-	padding:0px;
+    border-left-style:none;
+    padding:0px;
 }
 
-td.L1T:hover{
-	background-color:#247BBD;
-	vertical-align:center;
-	border-left-style:none;
-}
-td.L2T:hover{
-	background-color:#247BBD;
-}
-td.L3T:hover{
-	background-color:#247BBD;
-}
-td.L4T:hover{
-	background-color:#247BBD;
-}
-td.L5T:hover{
-	background-color:#247BBD;
-}
-td.L6T:hover{
-	background-color:#247BBD;
-}
-td.L7T:hover{
-	background-color:#247BBD;
-}
-td.L8T:hover{
-	background-color:#247BBD;
-	border-right-style:none;
-}
+
 td.LB1Tab:hover{
-	background-color:#247BBD;
-	vertical-align:center;
-	border-left-style:none;
+    background-color:#247BBD;
+    vertical-align:center;
+    border-left-style:none;
 }
 td.LB2Tab:hover{
-	background-color:#247BBD;
+    background-color:#247BBD;
 }
 td.LB3Tab:hover{
-	background-color:#247BBD;
+    background-color:#247BBD;
 }
 td.LB4Tab:hover{
-	background-color:#247BBD;
-	vertical-align:center;
-	border-right-style:none;
+    background-color:#247BBD;
+    vertical-align:center;
+    border-right-style:none;
 }
-.L1T{
-	margin: auto;
-	width:112.5px;
-	border-left-style:none;
-	/*text-align:center;*/
-	background-color: white;
-	vertical-align:center;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=72, Color=#000000)";/*IE 8*/
-	text-shadow: -1px 3px 9px #000000;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
-	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=135, Color=#000000); /*IE 5.5-7*/
 
-}
-.L2T{
-	margin: auto;
-	width:112.5px;
-	/*text-align:center;*/
-	background-color: white;
-	border:1px;
-	border-style: solid;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=72, Color=#000000)";/*IE 8*/
-	text-shadow: -1px 3px 9px #000000;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
-	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=135, Color=#000000); /*IE 5.5-7*/
-
-}
-.L3T{
-	margin: auto;
-	width:112.5px;
-	/*text-align:center;*/
-	background-color: white;
-	border:1px;
-	border-style: solid;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=72, Color=#000000)";/*IE 8*/
-	text-shadow: -1px 3px 9px #000000;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
-	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=135, Color=#000000); /*IE 5.5-7*/
-}
-.L4T{
-	margin: auto;
-	width:112.5px;
-	/*text-align:center;*/
-	background-color: white;
-	border:1px;
-	border-style: solid;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=72, Color=#000000)";/*IE 8*/
-	text-shadow: -1px 3px 9px #000000;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
-	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=135, Color=#000000); /*IE 5.5-7*/
-}
-.L5T{
-	margin: auto;
-	width:112.5px;
-	/*text-align:center;*/
-	background-color: white;
-	border:1px;
-	border-style: solid;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=72, Color=#000000)";/*IE 8*/
-	text-shadow: -1px 3px 9px #000000;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
-	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=135, Color=#000000); /*IE 5.5-7*/
-}
-.L6T{
-	margin: auto;
-	width:112.5px;
-	/*text-align:center;*/
-	background-color: white;
-	border:1px;
-	border-style: solid;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=72, Color=#000000)";/*IE 8*/
-	text-shadow: -1px 3px 9px #000000;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
-	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=135, Color=#000000); /*IE 5.5-7*/
-}
-.L7T{
-	margin: auto;
-	width:112.5px;
-	/*text-align:center;*/
-	background-color: white;
-	border:1px;
-	border-style: solid;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=72, Color=#000000)";/*IE 8*/
-	text-shadow: -1px 3px 9px #000000;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
-	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=135, Color=#000000); /*IE 5.5-7*/
-}
-.L8T{
-	margin: auto;
-	width:112.5px;
-	/*text-align:center;*/
-	background-color: white;
-	border-right-style:none;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=72, Color=#000000)";/*IE 8*/
-	text-shadow: -1px 3px 9px #000000;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
-	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=135, Color=#000000); /*IE 5.5-7*/
-
-}
 .LB1Tab{
 	margin: auto;
 	width:112.5px;
@@ -467,6 +403,10 @@ td.LB4Tab:hover{
 }
 .broadcasting-content{
 	background-color: #ffffff;
+}
+
+.tumblr-post-frame{
+    border: 0px;
 }
 
 /********************************************************
