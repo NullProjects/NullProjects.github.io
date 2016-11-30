@@ -1,0 +1,24 @@
+.admin-main-width{
+	width:100%;
+	padding:0px;
+}
+.admin-nav-width{
+	width: 25%;
+	background-color:#FFFF00;
+	padding:0px;
+	padding-right:0px
+	vertical-align:top;
+	border-top:solid;
+	border-bottom:solid;
+	border-left:solid;
+}
+.admin-content-width{
+	width:75%; 
+	background-color:#247BBD;
+	padding:0px;
+	padding-left:0px;
+	vertical-align:top;
+	border-top:solid;
+	border-bottom:solid;
+	border-right:solid;
+}
