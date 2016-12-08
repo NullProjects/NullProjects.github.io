@@ -1,0 +1,135 @@
+/* Social Bar Top */
+
+ul.socialbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.socialbar-content {
+    float: left;
+}
+
+li.socialbar-login {
+    float: right;
+    vertical-align: top;
+    height: 100%;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li.socialbar-content a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 9px 9px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+/* Navigation Bar */
+
+.navbar-wrap {
+    width: 100%;
+}
+
+ul.navbar-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+}
+
+li.navbar-content {
+    float: left;
+    text-align: center;
+    border-right: 1px solid #bbb;
+}
+
+li.navbar-login {
+    float: right;
+    vertical-align: top;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li.navbar-content a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.navbar-content a:hover:not(.active) {
+    background-color: #111;
+    text-decoration: none;
+    text-decoration-color: #fff;
+    color: #fff;
+}
+
+.active-nav {
+    background-color: #4CAF50;
+    text-decoration: none;
+    text-decoration-color: #fff;
+    color: #fff;
+}
+
+
+/* Social Bar Bottom */
+
+ul.socialbar-b {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.socialbar-b-content {
+    float: left;
+    border-right: 1px solid #bbb;
+    text-align: left;
+    color: #fff;
+}
+
+li.socialbar-b-right {
+    float: right;
+    vertical-align: top;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 9px 9px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}

@@ -1,0 +1,474 @@
+/***************************************************************************************
+****************************************************************************************
+****    	Copyright by Cybergig22, Null Projects & SZE and the NP Team              ****
+****    	This website is free to use by other people just be sure to               ****
+****    	leave this copyright notice up here a good place to get this template     ****
+****    	from for your own github or other website is @                            ****
+****							  		http://nullprojects.github.io/dev/GitCMS                    ****
+****************************************************************************************
+***************************************************************************************/
+
+/********************************************************
+*********            MAIN BODY SECTION           ********
+*********************************************************/
+/* Body CSS */
+body {
+/*    background-color: #ccffcc;
+*/
+    background-color: #ffffff;
+    background: -moz-linear-gradient(0deg, #FEFEFE 0, #247BBD 100%);/* FF3.6+ */
+    background: -webkit-gradient(linear, 0deg, color-stop(0, FEFEFE), color-stop(100%, 247BBD));/* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(0deg, #FEFEFE 0, #247BBD 100%);/* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(0deg, #FEFEFE 0, #247BBD 100%);/* Opera 11.10+ */
+    background: -ms-linear-gradient(0deg, #FEFEFE 0, #247BBD 100%);/* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1'); /* for IE */
+    background: linear-gradient(0deg, #FEFEFE 0, #247BBD 100%);/* W3C */
+    background-repeat:none;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+    height:100%;
+    font-size:12px;
+}
+.website-wrap{
+    border: 1px;
+    border-style: solid;
+    border-collapse: collapse;
+    width: 900px;
+    /* max-width: 80px; */
+    /* min-width: 20%; */
+    margin: 0 auto;
+    border-top-style: none;
+    background-color: #ffffff;
+}
+.soocial-icons{
+    max-width:30px;
+    max-height:30px;
+}
+.logo-img{
+    width:100%;
+    max-width:100%;
+    max-height:100%;
+}
+.soocial-icons-align{
+    text-align: right;
+}
+/*
+#full-wrap{
+    max-width: 80%;
+    min-width:20%;
+    margin: 0 auto;
+}
+*/
+
+/* Link CSS */
+/*
+a:link, a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+a:hover, a:active {
+    background-color: #1170c9;
+}
+*/
+a.socialicot:link,a.socialicot:visited{
+
+}
+a.socialicot:hover,a.socialicot:active{
+
+}
+
+a.tnav:link, a.tnav:visited{
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width:100%;
+}
+a.tnav:hover, a.tnav:active {
+    background-color: #247BBD;
+    color: #ffffff;
+}
+a.snav:link, a.snav:visited{
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    width:100%;
+}
+a.snav:hover, a.snav:active{
+    background-color: #247BBD;
+    color: #ffffff;
+    width:100%;
+    text-decoration: none;
+}
+a.socialicob:link,a.socialicob:visited{
+
+}
+a.socialicob:hover,a.socialicob:active{
+
+}
+
+
+/********************************************************
+*********            LOGIN SECTION               ********
+*********************************************************/
+.login-wrap{
+    background-color: #247BBD;
+    width: 100%;
+    height: 100%;
+    padding:0px;
+}
+.login-wrap-social{
+    width: 75%;
+}
+
+.login-btn-wrap{
+    background-color:#247BBD;
+    color:#000000;
+    border: 1px;
+    border-style:solid;
+    width:112.5px;
+    text-align: center;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=72, Color=#000000)";
+    text-shadow: -1px 3px 9px #000000;
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=135, Color=#000000);
+
+}
+.login-btn{
+    background-color: #247BBD;
+    color: #000000;
+    padding: 10px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    width: 112px;  
+}
+.login-btn:hover{
+    background-color: #ffffff;
+}
+td.login-btn-wrap:hover{
+    background-color:#ffffff;
+    color:#000000;
+}
+
+.login-button-text{
+    transform:translate(3px,0);
+    color:#ffffff;
+}
+a.login-button-text:hover{
+    transform:translate(3px,0);
+    color:#000000;
+}
+
+a.login-button:link, a.login-button:visited{
+    background-color: #247BBD;
+    color: #ffffff;
+    padding:0px;
+    text-align: center;
+    vertical-align:center;
+    text-decoration: none;
+    display: inline-block;
+    width:100%;
+    height:100%;
+}
+a.login-button:hover, a.login-button:active{
+    background-color:#ffffff;
+    color:#000000;
+}
+
+/********************************************************
+*********            HEADER SECTION              ********
+*********************************************************/
+.header-wrap{
+    background-color:#ffffff;
+    width: 100%;
+    height: 130px;
+}
+.header-text{
+    text-align:center;
+}
+
+/********************************************************
+*********        TABLE TOP LINKS SECTION         ********
+*********************************************************/
+/* Table Top Links */
+
+.tnav-wrap{
+    height:35px;
+    border: 1px;
+    border-style: solid;
+    border-collapse: collapse;
+    border-left-style:none;
+    border-right-style:none;
+    padding:0px;
+    width:100%;
+}
+.TTLinks{
+    border-left-style:none;
+    padding:0px;
+}
+
+
+td.LB1Tab:hover{
+    background-color:#247BBD;
+    vertical-align:center;
+    border-left-style:none;
+}
+td.LB2Tab:hover{
+    background-color:#247BBD;
+}
+td.LB3Tab:hover{
+    background-color:#247BBD;
+}
+td.LB4Tab:hover{
+    background-color:#247BBD;
+    vertical-align:center;
+    border-right-style:none;
+}
+
+.LB1Tab{
+	margin: auto;
+	width:112.5px;
+	border:1px;
+	border-style: solid;
+	border-right-style:none;
+	border-collapse: collapse;
+	background-color: white;
+	border-spacing:0px;
+	padding: 0px;
+	padding-right:0px;
+	padding-left: 0px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	vertical-align:center;
+	text-align: center;
+}
+.LB2Tab{
+	margin: auto;
+	width:112.5px;
+	background-color: white;
+	border:1px;
+	border-style: solid;
+	border-right-style:none;
+	border-collapse: collapse;
+	border-spacing:0px;
+	padding: 0px;
+	padding-right:0px;
+	padding-left: 0px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	vertical-align:center;
+	text-align: center;
+}
+.LB3Tab{
+	margin: auto;
+	width:112.5px;
+	background-color: white;
+	border:1px;
+	border-style: solid;
+	border-right-style:none;
+	border-collapse: collapse;
+	border-spacing:0px;
+	padding: 0px;
+	padding-right:0px;
+	padding-left: 0px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	vertical-align:center;
+	text-align: center;
+}
+.LB4Tab{
+	margin: auto;
+	width:112.5px;
+	border:1px;
+	border-style:solid;
+	background-color: white;
+	border-right-style:none;
+	border-collapse: collapse;
+	padding: 0px;
+	padding-right:0px;
+	padding-left: 0px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	vertical-align:center;
+	text-align: center;
+}
+.broadtab{
+	background-color:white;
+	width:50%;
+	padding-left:50%;
+}
+/********************************************************
+*********      BODY AND NAVIGATION SECTION       ********
+*********************************************************/
+/* Navigation & Content BG Fill*/
+.scbgfill{
+	background-color:D6D6D6;
+	width:100%;
+}
+/* Content CSS */
+.content-wrap{
+	background-color:#D6D6D6;
+	width: 100%; /* Value could be 65% or 100% */
+	vertical-align: top;
+}
+.content-wrap-div{
+	background-color:#ffffff;
+}
+.content-collum{
+/* FF 3.5+*/
+	-moz-column-count: 2;
+	-moz-column-gap: 20px;
+/*Saf3, Chrome*/
+	-webkit-column-count: 2;
+	-webkit-column-gap: 20px;
+	column-count: 2;
+	column-gap: 20px;
+	text-align: center;
+}
+/* Under Construction Notice CSS */
+.uc01{
+	border:0px;
+	border-style: solid;
+	width: 100%;
+	height: 30px;
+
+}
+.uc02{
+	border:1px;
+	border-style: dashed;
+	background-color: yellow;
+	text-align: center;
+
+
+}
+/* Navigation right CSS nav2*/
+
+.snav_wrap{
+	width: 15%;
+	border: 5px;
+	border-style: solid;
+	border-collapse: collapse;
+	border-left-style: none;
+	border-top-style: none;
+	padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	padding:0px;
+	margin:0px;
+	margin-top:0px;
+	vertical-align: top;
+	background-color:#D6D6D6;
+	border-color: #D6D6D6;
+	border-bottom-color: #D6D6D6;
+	border-left-color: #D6D6D6;
+	border-right-color: #D6D6D6;
+	border-top-color: #D6D6D6;
+}
+
+.snav_wrap_menu{
+	border-style: solid;
+	border-color: #000000;
+	border: 1px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 0px;
+	width: 100%;
+	vertical-align: top;
+
+
+}
+.snav_title{
+	background-color:#ffffff;
+	width:100%;
+	height:20px;
+	border-collapse: collapse;
+	border-left-style: none;
+	border-top-style: none;
+	border-right-style: none;
+	border: 1px;
+	border-bottom-style:solid;
+	padding:0px;
+	margin:0px;
+	margin-top:0px;
+}
+.snav_body{
+	background-color: #ffffff;
+	padding:0px;
+}
+.broadcasting-content{
+	background-color: #ffffff;
+}
+
+.tumblr-post-frame{
+    border: 0px;
+}
+
+/********************************************************
+*********            FOOTER SECTION              ********
+*********************************************************/
+/* Footer CSS */
+.footer-wrap-main{
+	width:100%;
+	vertical-align:top;
+	background-color: #247BBD;
+	padding:0px;
+}
+.footer-wrap{
+	border: 0px;
+	width: 100%;
+	background-color: #247BBD;
+	border-top-style:none;
+	border-bottom-style:none;
+	border-right-style:none;
+	border-left-style:none;
+	padding: 0px;
+	margin: 0px;
+}
+.footer-wrap-bg{
+	background-color: #247BBD;
+}
+.footer-wrap-bg2{
+	background-color: #247BBD;
+	width:65%;
+}
+/* Footer Links CSS */
+.footer-links-wrap{
+	width: 95%;
+	background-color: #247BBD;
+	padding:0px;
+}
+/* Footer Images CSS */
+.footer-image-wrapbg{
+	background-color: #247BBD;
+	width:35%;
+	vertical-align:top;
+	padding:0px;
+}
+.footer-social-wrap{
+	background-color: #247BBD;
+	width: 100%;
+	padding:0px;
+}
+
+/********************************************************
+*********          COPYRIGHT SECTION             ********
+*********************************************************/
+/* Copyright CSS */
+.copyrightbg{
+	background-color: #247BBD;
+	padding:0px;
+	text-align:center;
+	width: 100%;
+}
+
+
+
+/********************************************************
+*********          END OF CSS CONTENT            ********
+*********************************************************/
