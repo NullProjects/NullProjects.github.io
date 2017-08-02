@@ -1,0 +1,158 @@
+/********************************************************
+*********        TOP SOCIALBAR SECTION           ********
+*********************************************************/
+ul.socialbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #247BBD; /* #333 */
+}
+li.socialbar-content {
+    float: left;
+    vertical-align: top;
+}
+li.socialbar-content a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 9px 9px;
+    text-decoration: none;
+}
+li.socialbar-content:last-child {
+    border-right: none;
+}
+li.socialbar-content a:hover:not(.active) {
+    background-color: #247BBD; /* #111 */
+}
+li.socialbar-content-active {
+    background-color: #fff;
+}
+/********************************************************
+*********        LOGIN BUTTON SECTION            ********
+*********************************************************/
+li.socialbar-login {
+    float: right;
+    vertical-align: top;
+    margin: 5px 5px 10px 10px;
+}
+li.socialbar-login a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 9px 9px;
+    text-decoration: none;
+}
+li.socialbar-login:last-child {
+    border-right: none;
+}
+li.socialbar-login a:hover:not(.active) {
+    background-color: #111;
+}
+li.socialbar-login-active {
+    background-color: #fff;
+}
+/********************************************************
+*********           NAV BAR SECTION              ********
+*********************************************************/
+.navbar-wrap {
+    width: 100%;
+}
+ul.navbar-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+}
+li.navbar-content {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+li.navbar-content:last-child {
+    border-right: none;
+}
+li.navbar-content a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #333;
+}
+li.navbar-content a:hover:not(.active) {
+    background-color: #212121;
+    /*background-color: #111;*/
+    text-decoration: none;
+    text-decoration-color: #fff;
+    color: #fff;
+}
+li.nav-active {
+    background-color: #212121;
+    color: #fff;
+}
+li.nav-active a {
+    background-color: #212121;
+    color: #fff;
+}
+/*
+.active {
+    background-color: #4CAF50;
+}
+*/
+/********************************************************
+*********            TAB BAR SECTION             ********
+*********************************************************/
+li.donate-tab-text-color a {
+    color: #000;
+}
+/********************************************************
+*********            FOOTER SECTION              ********
+*********************************************************/
+ul.socialbar-b {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li.socialbar-b-content {
+    float: left;
+    border-right: 1px solid #bbb;
+    text-align: left;
+    color: #fff;
+}
+li:last-child {
+    border-right: none;
+}
+li.socialbar-b-content a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 9px 9px;
+    text-decoration: none;
+}
+li.socialbar-b-content a:hover:not(.active) {
+    background-color: #111;
+}
+.socialbar-b-content-active {
+    background-color: #fff
+}
+li.socialbar-b-right {
+    float: right;
+    vertical-align: top;
+}
+li.socialbar-b-right a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 9px 9px;
+    text-decoration: none;
+}
+li.socialbar-b-right a:hover:not(.active) {
+    background-color: #111;
+}
+.socialbar-b-right-active {
+    background-color: #fff
+}

@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Embed and Share Your Live Stream Status - Streambadge</title>
+        <meta name="description" content="Streambadge helps you gain viewership by displaying your live stream status! Select your video stream service, add your username, and grab the code! Streambadge works with Twitch.tv, Justin.tv, UStream.tv, GoodGame.ru, hitbox.tv, and Livestream.com!">
+        <meta name="viewport" content="width=device-width">
+        <meta content='http://streambadge.com/images/streambadge.png' property='og:image'/>
+        <meta content='https://streambadge.com/images/streambadge.png' property='og:image:secure_url'/>
+        <link rel="canonical" href="http://streambadge.com/">
+        <link rel="canonical" href="http://streambadge.com/">
+        <link rel="shortcut icon" href="/favicon.png">
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+        <!-- build:css({.tmp,app}) styles/main.min.css -->
+        <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
+        <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Sonsie+One' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header class="header" role="banner">
+            <div class="container">
+                <div class="header__logo-container">
+                    <h1 id="logo" class="header__logo"><span aria-hidden="true">S</span><span class="visuallyhidden">Streambadge</span></h1>
+                </div>
+                <a href="#main" class="visuallyhidden focusable">Skip to content</a>
+                <nav class="header__main-nav" role="navigation">
+                    <ul class="header__main-nav__list">
+                        <li class="header__main-nav__list__item">
+                            <a href="#about" class="header__main-nav__list__item__link">About</a>
+                        </li>
+                        <li class="header__main-nav__list__item">
+                            <a href="#support" class="header__main-nav__list__item__link">Support</a>
+                        </li>
+                        <li class="header__main-nav__list__item">
+                            <a href="#follow" class="header__main-nav__list__item__link">Follow</a>
+                        </li>
+                        <li class="header__main-nav__list__item">
+                            <a href="#donate" class="header__main-nav__list__item__link">Donate</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="subscribe">
+                    <ul class="subscribe__list">
+                        <li class="subscribe__list__item">
+                            <a href="http://twitter.com/streambadge" class="subscribe__list__item__link"><span aria-hidden="true" class="icon-twitter"></span><span class="visuallyhidden">Twitter</span></a>
+                        </li>
+                        <li class="subscribe__list__item">
+                            <a href="http://github.com/svinkle/streambadge/" class="subscribe__list__item__link"><span aria-hidden="true" class="icon-github"></span><span class="visuallyhidden">GitHub</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main id="main" class="main" role="main">
+            <div class="container group">
+                <div class="intro">
+                    <strong>Streambadge</strong> helps you gain viewership by displaying your live stream status!
+                    <div class="featured-streams" data-js="featured-streams"></div>
+                </div>
+            </div>
+            <div class="container app">
+                <noscript>
+                    <div class="notice">
+                        <p>JavaScript is required to generate your Streambadge. Please use a JavaScript enabled browser.</p>
+                    </div>
+                </noscript>
+                <section aria-labelledby="section-service" class="section active">
+                    <h2 id="section-service" class="section-header first">1. Select your streaming service:</h2>
+                    <ul class="button-list">
+                        <li>
+                            <button id="twitch-button" class="button twitch" data-button="twitch" data-js="service-button">
+                                <img src="/images/twitch-logo.png" width="300" height="64" alt="Twitch.tv logo" class="service-logo">
+                            </button>
+                        </li>
+                        <li>
+                            <button id="justin-button" class="button justin" data-button="justin" data-js="service-button">
+                                <img src="/images/justin-logo.png" width="300" height="64" alt="Justin.tv logo" class="service-logo">
+                            </button>
+                        </li>
+                        <li>
+                            <button id="ustream-button" class="button ustream" data-button="ustream" data-js="service-button">
+                                <img src="/images/ustream-logo.png" width="300" height="64" alt="UStream.tv logo" class="service-logo">
+                            </button>
+                        </li>
+                        <li>
+                            <button id="goodgame-button" class="button goodgame" data-button="goodgame" data-js="service-button">
+                                <img src="/images/goodgame-logo.png" width="300" height="64" alt="GoodGame.ru logo" class="service-logo">
+                            </button>
+                        </li>
+                        <li>
+                            <button id="hitbox-button" class="button hitbox" data-button="hitbox" data-js="service-button">
+                                <img src="/images/hitbox-logo.png" width="300" height="64" alt="hitbox.tv logo" class="service-logo">
+                            </button>
+                        </li>
+                        <li>
+                            <button id="livestream-button" class="button livestream" data-button="livestream" data-js="service-button">
+                                <img src="/images/livestream-logo.png" width="300" height="64" alt="Livestream.com logo" class="service-logo">
+                            </button>
+                        </li>
+                    </ul>
+                </section>
+                <section aria-labelledby="section-theme" class="section section-theme active" data-js="section-theme">
+                    <h3 id="section-theme" class="section-info-title">Select a theme <span class="usage">(optional)</span></h3>
+                    <ul class="select-theme-list">
+                        <li>
+                            <input type="radio" id="theme-light" name="theme" value="light" class="theme-input" data-theme="light" data-js-theme="theme-light" data-js="theme-input">
+                            <label for="theme-light">Light</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="theme-dark" name="theme" value="dark" class="theme-input" data-theme="dark" data-js-theme="theme-dark" data-js="theme-input">
+                            <label for="theme-dark">Dark</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="theme-custom" name="theme" value="custom" class="theme-input" data-theme="custom" data-js="theme-input">
+                            <label for="theme-custom">Custom</label>
+                            <div class="color-selectors" data-js="color-selectors">
+                                <label for="bg-color">Background Color</label>
+                                <input type="color" id="bg-color" class="color-selector" value="#2B2B2B" data-color-selector="bg-color" data-js-color="bg-color" data-js="color-selector">
+                                <label for="link-color">Link Color</label>
+                                <input type="color" id="link-color" class="color-selector" value="#B9A3E3" data-color-selector="link-color" data-js-color="link-color" data-js="color-selector">
+                                <label for="text-color">Text Color</label>
+                                <input type="color" id="text-color" class="color-selector" value="#808080" data-color-selector="text-color" data-js-color="text-color" data-js="color-selector">
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <section aria-labelledby="section-username" class="section" data-js="section-username">
+                    <h2 id="section-username" class="section-header">2. Enter your service username:</h2>
+                    <input type="text" id="username-input" class="readonly" data-js="username-input" readonly="readonly" />
+                </section>
+                <section aria-labelledby="section-code" class="section" data-js="section-code">
+                    <h2 id="section-code" class="section-header">3. Grab the code:</h2>
+                    <h3 class="section-info-title">iFrame <span class="usage">(HTML and CSS)</span></h3>
+                    <div class="group">
+                      <textarea class="code desktop" data-js="iframe-code" data-js-code="service-code" readonly="readonly"></textarea>
+                      <div class="code mobile" data-js="iframe-code-mobile" data-js-code="service-code"></div>
+                      <button id="iframe-preview-button" class="preview" data-preview="iframe" data-js="preview-button">Preview</button>
+                      <div class="iframe-preview" data-js-preview="section-preview" data-js="iframe-preview-section">
+                        <iframe src="/" style="border:none;height:4em;width:100%" data-js="iframe-preview"></iframe>
+                      </div>
+                    </div>
+                    <h3 class="section-info-title">HTML Image <span class="usage">(For your website or blog)</span></h3>
+                    <div class="group">
+                      <textarea class="code desktop" data-js="html-code" data-js-code="service-code" readonly="readonly"></textarea>
+                      <div class="code mobile" data-js="html-code-mobile" data-js-code="service-code"></div>
+                      <button id="image-preview-button" class="preview" data-preview="image" data-js="preview-button">Preview</button>
+                      <div class="image-preview" data-js-preview="section-preview" data-js="image-preview-section">
+                        <img src="/" alt="" data-js="image-preview">
+                      </div>
+                    </div>
+                    <h3 class="section-info-title">BBCode Image <span class="usage">(For your forum signature)</span></h3>
+                    <div class="group">
+                      <textarea class="code desktop" data-js="bbcode-code" data-js-code="service-code" readonly="readonly"></textarea>
+                      <div class="code mobile" data-js="bbcode-code-mobile" data-js-code="service-code"></div>
+                      <button id="bbcode-preview-button" class="preview" data-preview="bbcode" data-js="preview-button">Preview</button>
+                      <div class="bbcode-preview" data-js-preview="section-preview" data-js="bbcode-preview-section">
+                        <img src="/" alt="" data-js="bbcode-preview">
+                      </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="footer" role="contentinfo">
+            <div class="container">
+                <div class="group">
+                    <section aria-labelledby="about" class="footer-section">
+                        <h4 id="about">About</h4>
+                        <p><b>Streambadge</b> helps you gain viewership by displaying your live stream status!</p>
+                        <p>Select your video stream service, add your username, and grab the code! Paste the code to your website, blog, or forum signature.</p>
+                    </section>
+                    <section aria-labelledby="support" class="footer-section">
+                        <h4 id="support">Support</h4>
+                        <p>Have a feature request? Found a bug? Let us know on our <a href="http://github.com/svinkle/streambadge/issues"><span aria-hidden="true" class="icon-github"></span> GitHub</a> issues page!</p>
+                        <h4 id="follow">Follow</h4>
+                        <p>Questions or comments? Follow us on <a href="http://twitter.com/streambadge"><span aria-hidden="true" class="icon-twitter"></span> Twitter</a> for status updates and new features!</p>
+                    </section>
+                    <section aria-labelledby="follow" class="footer-section">
+                        <h4 id="donate">Donate</h4>
+                        <p>If you love <strong>Streambadge</strong> as much as we do, please consider making a donation!</p>
+                        <p>Any and all donations will help with the cost of hosting and will keep the service <em>free</em> for all to enjoy!</p>
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                            ">
+                            <input type="submit" name="submit" class="donate-button" value="Donate">
+                        </form>
+                    </section>
+                </div>
+                <div class="copy">
+                    <p>&copy; <span data-js="year">2012</span> Streambadge</p>
+                    <p>Streambadge is not sponsored by or affiliated with Twitch.tv, Justin.tv, UStream.tv, GoodGame.ru, hitbox.tv, or Livestream.com.<br>"Twitch" logo &copy; Justin.tv Inc. "Justin.tv" logo &copy; Justin.tv Inc. "UStream" logo &copy; Ustream Inc. "GG!!" logo &copy; GoodGame.ru. "hitbox" logo &copy; hitbox Entertainment. "Livestream" logo &copy; Livestream LLC.</p>
+                </div>
+            </div>
+        </footer>
+        <!-- build:js scripts/main.min.js -->
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
+        <script>
+            var _gaq=[['_setAccount','UA-37973757-2'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>
