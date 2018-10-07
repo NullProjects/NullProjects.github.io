@@ -155,6 +155,11 @@ export default StyleSheet.create({
         "backgroundColor": "yellow",
         "textAlign": "center"
     },
+    "pulsate": {
+        "WebkitAnimation": "pulsate 3s ease-out",
+        "WebkitAnimationIterationCount": "infinite",
+        "opacity": 0.5
+    },
     "main-content-wrap": {
         "marginTop": 0,
         "marginRight": "auto",
@@ -170,6 +175,10 @@ export default StyleSheet.create({
     },
     "tumblr-post-frame": {
         "border": 0
+    },
+    "content-wrap-div": {
+        "backgroundColor": "#ffffff",
+        "width": "90%"
     },
     "footer-wrap-main": {
         "width": "100%",

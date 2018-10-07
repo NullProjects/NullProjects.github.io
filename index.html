@@ -1,4 +1,4 @@
-﻿<!-- ------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------ -->
 <!--    	Copyright by Cybergig22, Null Projects & SZE and the NP Team              -->
 <!--    	This website is free to use by other people just be sure to               -->
 <!--    	leave this copyright notice up here a good place to get this template     -->
@@ -32,22 +32,29 @@
     <link id="maincss" rel="stylesheet" type="text/css" href="mainfiles/themes/sundance/css/main-div.css">
     <link id="dropdowncss" rel="stylesheet" type="text/css" href="mainfiles/themes/sundance/css/navbarcss-div.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Bootstrap 4 Migration, Eventually
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    -->
     <!-- ------------------------------------------------------------------------------ -->
     <!-- End Link Section / CSS Section -->
     <!-- ------------------------------------------------------------------------------ -->
     <!-- ------------------------------------------------------------------------------ -->
     <!-- JavaScript Section -->
     <!-- ------------------------------------------------------------------------------ -->
-    <!-- Uncomment if your server doesn't support javascript -->
+    <!-- comment if your server doesn't support javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-2919172639581543",
-    enable_page_level_ads: true
-  });
-</script>
+  <!-- Bootstrap 4 Migration, Eventually
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  -->
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-2919172639581543",
+        enable_page_level_ads: true
+      });
+    </script>
     <!-- ------------------------------------------------------------------------------ -->
     <!-- End JavaScript Section -->
     <!-- ------------------------------------------------------------------------------ -->
@@ -93,7 +100,7 @@
                             </li>
                             <li class="navbar-content"><a href="dev/">DEVELOPMENT</a>
                             </li>
-                            <li class="navbar-content"><a href="#" style="width: 97px;">SHOP</a>
+                            <li class="navbar-content"><a href="shop/" style="width: 97px;">SHOP</a>
                             </li>
                             <li class="navbar-content"><a href="broadcasting/">BROADCASTING</a>
                             </li>
@@ -113,14 +120,19 @@
                 <div class="main-content-wrap">
                     <br>
                     <br>
+                    <div class="alert alert-warning pulsate">
+                      <strong>Warning</strong> This website is under construction, please check back later to see if &amp; when the website is ready :).
+                    </div>
+                    <!--
                     <p class="uc02"> This website is under construction, please check back later to see if &amp; when the website is ready :) </p>
+                  -->
                     <br>
                     <p class="content-container-wrap">
                         <br/>
                         <div class=#twitch-widget "><script src="/javascript/twitch-online.js "><p> ... </p></script></div>
                       <br/>
 
-                        <iframe class="tumblr-post-frame " src="/mainfiles/tumblrposts.html " width="100% " height="450px "></iframe>
+                        <iframe class="tumblr-post-frame" src="http://rss.bloople.net/?url=http%3A%2F%2Fnullprojects.tumblr.com%2Frss&limit=5&showtitle=false&showicon=true&type=html" width="100% " height="450px "></iframe> <!--src="/mainfiles/tumblrposts.html-->
                     </p>
                     <br>
                     <br> </div>
@@ -134,7 +146,7 @@
                             <a href="contact/s/ ">Support</a>
                             <a href=" ">Projects</a></li>
                         <li class="socialbar-b-content " style="width: 125px; "> <strong><span>Community:</span></strong>
-                            <a href="http://npdevforum.boards.net/ " target="_new ">Forum</a>
+                            <a href="#" target="_new ">Forum</a> <!-- http://npdevforum.boards.net/ --> <!-- Might be getting rid of this -->
                             <a href="community/c/ ">Chat</a>
                             <a href="community/g/ ">Groups</a>
                             <a href="community/b/ ">Blog</a></li>

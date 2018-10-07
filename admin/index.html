@@ -43,7 +43,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-    <script src="../mainfiles/javascript/devcontent.js"></script>
+    <script src="../mainfiles/javascript/apanel.js"></script>
     <!-- ------------------------------------------------------------------------------ -->
     <!-- End JavaScript Section -->
     <!-- ------------------------------------------------------------------------------ -->
@@ -88,7 +88,7 @@
                             <!-- navbar-ul -->
                             <li class="navbar-content"><a href="../index.html" style="width: 93px;">HOME</a>
                             </li>
-                            <li class="navbar-content nav-active"><a href="../dev/">DEVELOPMENT</a>
+                            <li class="navbar-content"><a href="../dev/">DEVELOPMENT</a>
                             </li>
                             <li class="navbar-content"><a href="../shop/" style="width: 97px;">SHOP</a>
                             </li>
@@ -124,6 +124,149 @@
                     </div>
                     <br/>
                     <br/>
+
+                    <div class="container-fluid">
+                      <nav>
+                        <ul class="nav nav-tabs">
+                          <li class="active admin-tab-text-c"><a href="#news">News</a></li>
+                          <li class="admin-tab-text-c"><a href="#comm">Community</a></li>
+                          <li class="admin-tab-text-c"><a href="#event-manage">Events</a></li>
+                          <li class="admin-tab-text-c"><a href="#proj-manage">Projects</a></li>
+                          <li class="admin-tab-text-c"><a href="#mem-manage">Members</a></li>
+                          <li class="admin-tab-text-c"><a href="#ticket-manage">Tickets</a></li>
+                          <li class="admin-tab-text-c"><a href="#issue-manage">Issue Control</a></li>
+                          <li class="admin-tab-text-c"><a href="#version-manage">Versioning Control</a></li>
+                        </ul>
+                      </nav>
+                      <div class="tab-content">
+
+
+                        <div id="news" class="tab-pane fade in active">
+
+                        </div>
+                        <div id="comm" class="tab-pane fade">
+                          <div class="row">
+
+                            <div class="col-sm-3 " style="background-color:white; " ng-repeat="news in newsgrab | toArray | orderBy:sortnewsarticles ">
+                              <div style="border:1;border-bottom-color: #000000; ">  {{news.newsdate | date: "MM/dd/yyyy" }}</div> <!--<img src="{{product.prodthumb}}" />-->
+                              <div style="border:1;border-bottom-color: #000000; "> {{news.newstitle}} </div>
+                              <div style="border:1;border-bottom-color: #000000; "> {{news.newsshortdesc}} </div>
+                              <div style="border:1;border-bottom-color: #000000; "> {{news.newlongdesc}} </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="event-manage" class="tab-pane fade">
+                          <div class="row">
+                            Sort By:
+                            <select ng-model="sortproducts">
+                              <option value="+X ">x</option>
+                              <option value="+X ">x</option>
+                            </select>
+                            <br/>
+                            <br/>
+                            <div class="col-sm-3 " style="background-color:white; " ng-repeat="events in einfo | toArray | orderBy:sortedate ">
+                              <div style="border:1;border-bottom-color: #000000; "> {{events.eventsname}} </div>
+                              <div style="border:1;border-bottom-color: #000000; "> {{events.eventsdesc}} </div>
+                              <div style="border:1;border-bottom-color: #000000; "> {{events.eventsloc}} </div>
+                              <div style="border:1;border-bottom-color: #000000; "> {{events.eventsdate | date: "MM/dd/yyyy" }} </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="proj-manage" class="tab-pane fade">
+                          <div class="row">
+                            Sort By:
+                            <select ng-model="sortproducts">
+                              <option value="+prodtitle ">Product</option>
+                              <option value="+prodrelease ">Release Date</option>
+                            </select>
+                            <br/>
+                            <br/>
+                            <div class="col-sm-3 " style="background-color:white; " ng-repeat="product in products | toArray | orderBy:sortproducts ">
+                              <div style="border:1;border-bottom-color: #000000; "> <img src="{{product.prodthumb}}" /> </div>
+                              <div style="border:1;border-bottom-color: #000000; "> {{product.prodtitle}} </div>
+                              <div style="border:1;border-bottom-color: #000000; "> {{product.proddesc}} </div>
+                              <div style="border:1;border-bottom-color: #000000; "> {{product.prodrelease | date: "MM/dd/yyyy" }} </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="mem-manage" class="tab-pane fade">
+                          <div class="row">
+                            Sort By:
+                            <select ng-model="sortproducts">
+                              <option value="+X">X</option>
+                              <option value="+X ">X</option>
+                            </select>
+                            <br/>
+                            <br/>
+                            <div class="col-sm-3 " style="background-color:white; " ng-repeat="meminfo in infograbmembers | toArray | orderBy:memid ">
+                              <div style="border:1;border-bottom-color: #000000; "> {{meminfo.memid}} </div>
+                              <div style="border:1;border-bottom-color: #000000; "> {{meminfo.memname}} </div>
+                              <div style="border:1;border-bottom-color: #000000; "> {{meminfo.memsession}} </div>
+                              <div style="border:1;border-bottom-color: #000000; "> {{meminfo.memtoken}} </div>
+                              <div style="border:1;border-bottom-color: #000000; "> {{meminfo.lhandel}} </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="ticket-manage" class="tab-pane fade">
+                          <div class="row">
+                            Sort By:
+                            <select ng-model="sortproducts">
+                              <option value="+prodtitle ">Product</option>
+                              <option value="+prodrelease ">Release Date</option>
+                            </select>
+                            <br/>
+                            <br/>
+                            <div class="col-sm-3 " style="background-color:white; " ng-repeat="product in products | toArray | orderBy:sortproducts ">
+                              <div style="border:1;border-bottom-color: #000000; "> <img src="{{product.prodthumb}}" /> </div>
+                              <div style="border:1;border-bottom-color: #000000; "> {{product.prodtitle}} </div>
+                              <div style="border:1;border-bottom-color: #000000; "> {{product.proddesc}} </div>
+                              <div style="border:1;border-bottom-color: #000000; "> {{product.prodrelease | date: "MM/dd/yyyy" }} </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="issue-manage" class="tab-pane fade">
+                          <div class="row">
+                            Sort By:
+                            <select ng-model="sortproducts">
+                              <option value="+prodtitle ">Product</option>
+                              <option value="+prodrelease ">Release Date</option>
+                            </select>
+                            <br/>
+                            <br/>
+                            <div class="col-sm-3 " style="background-color:white; " ng-repeat="product in products | toArray | orderBy:sortproducts ">
+                              <div style="border:1;border-bottom-color: #000000; "> <img src="{{product.prodthumb}}" /> </div>
+                              <div style="border:1;border-bottom-color: #000000; "> {{product.prodtitle}} </div>
+                              <div style="border:1;border-bottom-color: #000000; "> {{product.proddesc}} </div>
+                              <div style="border:1;border-bottom-color: #000000; "> {{product.prodrelease | date: "MM/dd/yyyy" }} </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="version-manage" class="tab-pane fade">
+                          <div class="row">
+                            Sort By:
+                            <select ng-model="sortproducts">
+                              <option value="+prodtitle ">Product</option>
+                              <option value="+prodrelease ">Release Date</option>
+                            </select>
+                            <br/>
+                            <br/>
+                            <div class="col-sm-3 " style="background-color:white; " ng-repeat="product in products | toArray | orderBy:sortproducts ">
+                              <div style="border:1;border-bottom-color: #000000; "> <img src="{{product.prodthumb}}" /> </div>
+                              <div style="border:1;border-bottom-color: #000000; "> {{product.prodtitle}} </div>
+                              <div style="border:1;border-bottom-color: #000000; "> {{product.proddesc}} </div>
+                              <div style="border:1;border-bottom-color: #000000; "> {{product.prodrelease | date: "MM/dd/yyyy" }} </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+<!-- DcStart2 -->
+<!-- DevPage Dupe -->
+<!--
                     <div class="container-fluid">
                       <div class="row">
                         Sort By:
@@ -144,18 +287,6 @@
                       </div>
                       <br/>
                       <br/>
-                      <!-- Optional Dropdown for sorting -->
-                      <!--
-                      <div class="dropdown">
-                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Selectable
-                        <span class="caret"></span></button>
-                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Product</a></li>
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Release Date</a></li>
-                        </ul>
-                      </div>
-                    -->
-
                       <div class="row">
                         Sort By:
                         <select ng-model="sortproducts">
@@ -174,6 +305,7 @@
                     </div>
                     <br>
                     <br> </div>
+-->
             </main>
             <footer>
                 <nav>

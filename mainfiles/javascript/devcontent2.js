@@ -95,7 +95,7 @@ angular.module("devcontent", [])
 
     };
 
-    $scope.sortproducts = "prodid";
+    $scope.sortproducts = "prodid"
     $scope.sortgames = "gameid";
     $scope.sortprojects = "projid";
 /*
@@ -112,11 +112,11 @@ angular.module("devcontent", [])
       }
     }
 */
-    $scope.reverse = true;
-    $scope.gametitles = gametitle;
-
+//    $scope.reverse = true;
+//    $scope.gametitles = gametitle;
+/*
     $scope.sortBy = function(propertyName) {
     $scope.reverse = ($scope.propertyName === propertyName) ? !$scope.reverse : false;
     $scope.propertyName = propertyName;
-
+*/
   });

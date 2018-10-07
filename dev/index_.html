@@ -6,7 +6,7 @@
 <!--							  		http://nullprojects.github.io/dev/GitCMS             -->
 <!-- ------------------------------------------------------------------------------ -->
 <!DOCTYPE html>
-<html lang="en-us">
+<html ng-app="devcontent" lang="en-us">
 <!-- <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-us"> -->
 
 <head>
@@ -42,19 +42,16 @@
     <!-- Uncomment if your server doesn't support javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-2919172639581543",
-        enable_page_level_ads: true
-      });
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="../mainfiles/javascript/sub-topnav.js"></script>
+    <script src="../mainfiles/javascript/devcontent.js"></script>
     <!-- ------------------------------------------------------------------------------ -->
     <!-- End JavaScript Section -->
     <!-- ------------------------------------------------------------------------------ -->
 </head>
 
 <body>
-    <div class="mainwrap" align="center">
+    <div class="mainwrap" align="center" ng-app="urlinclude">
         <div class="mainwrap-c">
             <header>
                 <nav>
@@ -86,113 +83,92 @@
                     </ul>
                 </nav>
                 <div class="logo-img-wrap"> <img src="..\mainfiles\themes\sundance\images\header-images\NPLogo.png" alt="Null Projects" class="logo-img"> </div>
-                <div>
-                    <nav>
-                        <ul class="navbar-ul">
-                            <!-- navbar-ul -->
-                            <li class="navbar-content"><a href="../index.html" style="width: 93px;">HOME</a>
-                            </li>
-                            <li class="navbar-content"><a href="../dev/">DEVELOPMENT</a>
-                            </li>
-                            <li class="navbar-content"><a href="../shop/" style="width: 97px;">SHOP</a>
-                            </li>
-                            <li class="navbar-content nav-active"><a href="../broadcasting/">BROADCASTING</a>
-                            </li>
-                            <li class="navbar-content"><a href="../community/">COMMUNITY</a>
-                            </li>
-                            <li class="navbar-content"><a href="../about/">ABOUT US</a>
-                            </li>
-                            <li class="navbar-content"><a href="../contact/">CONTACT US</a>
-                            </li>
-                            <li class="navbar-content"><a href="../donate/" style="width: 90px;">DONATE</a>
-                                <!--
-                            <li class="dropdown">
-                              <a class="dropbtn" href="../donate/" style="width: 90px;">DONATE</a>
-                                <div class="dropdown-content">
-                                  <a href="#">Link 1</a>
-                                  <a href="#">Link 2</a>
-                                  <a href="#">Link 3</a>
-                              </div>
-                            </li>
-                          -->
-                            </li>
-                        </ul>
+                <div class="navbar-ul">
+                    <nav ng-controller="urlcontrol">
+                      <ul class="navbar-ul">
+                          <!-- navbar-ul -->
+                          <li class="navbar-content"><a href="../index.html" style="width: 93px;">HOME</a>
+                          </li>
+                          <li class="navbar-content nav-active"><a href="../dev/">DEVELOPMENT</a>
+                          </li>
+                          <li class="navbar-content"><a href="#" style="width: 97px;">SHOP</a>
+                          </li>
+                          <li class="navbar-content"><a href="../broadcasting/">BROADCASTING</a>
+                          </li>
+                          <li class="navbar-content"><a href="../community/">COMMUNITY</a>
+                          </li>
+                          <li class="navbar-content"><a href="../about/">ABOUT US</a>
+                          </li>
+                          <li class="navbar-content"><a href="../contact/">CONTACT US</a>
+                          </li>
+                          <li class="navbar-content"><a href="../donate/" style="width: 90px;">DONATE</a>
+                              <!--
+                          <li class="dropdown">
+                            <a class="dropbtn" href="../donate/" style="width: 90px;">DONATE</a>
+                              <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                          </li>
+                        -->
+                          </li>
+                      </ul>
+                      <!--
+                      <div class="col-sm-3" ng-repeat="url in urlnames | toArray | orderBy:urlid">
+                        <div> <a ng-href="{{ url.turl }}"> {{ url.tname }} </a> </div>
+                      </div>
+                    -->
                     </nav>
                 </div>
             </header>
-            <main>
+            <main ng-controller="dev-control">
                 <div class="main-content-wrap">
-                    <br>
                     <br>
                     <div class="alert alert-warning pulsate">
                       <strong>Warning</strong> This website is under construction, please check back later to see if &amp; when the website is ready :).
                     </div>
-                    <!--
-                    <p class="uc02"> This website is under construction, please check back later to see if &amp; when the website is ready :) </p>
-                  -->
-                    <br>
-                    <p class="content-container-wrap">
-                        <div class="container-fluid">
-                            <h2>Current Streamers: </h2>
-                            <p>
-                              The current we only have one streamer, working to provide better content and videos and we are starting up a YouTube channel and plan on embedding that in the broadcasting page so you can see you are past archived broadcasts or at least some of them as we progress with work.
-                            </p>
-                            <p>
-                              Just warning you the archived videos will not be professionally done and tell later and it will be mixed up with videogame streams as well. It is done for the fun of it and for those who want to watch while we work or play video games and enjoy ourselves.
-                            </p>
-                            <ul class="nav nav-tabs">
-                                <li class="active donate-tab-text-color"><a data-toggle="tab" href="#info">Information</a></li>
-                                <li class="donate-tab-text-color"><a data-toggle="tab" href="#cybergig22">Cybergig22</a></li>
-                                <li class="donate-tab-text-color"><a data-toggle="tab" href="#cysyoutube">Cybergig22's Youtube</a></li>
-                                <!-- <li class="donate-tab-text-color"><a data-toggle="tab" href="#jestermd">DrJesterMD</a></li> -->
-                                <!-- <li class="donate-tab-text-color"><a data-toggle="tab" href="#deadpooligan">Deadpooligan</a></li> -->
-                            </ul>
-                            <div class="tab-content">
-                                <div id="info" class="tab-pane fade in active">
-                                    <h2>Information</h2>
-                                    <p>
-
-                                    </p>
-                                    <!--<p>
-                                        At current we are running a fundraiser campaign for MS, Cancer and Spinal Stenosis or similar ailments.. througout an entire year.<br/> To view the current broadcasters streams just click the broadcasters name listed above in the tabs and it will load that particular<br/> broadcasters stream. Keep in mind this section like all the other sections are currently under construction and will take a little bit<br/> before they are all up 100% and running. If you would like to find out more information on the fundraiser <a href="../donate/" target="_new">Click Here</a>
-                                    </p>
-                                    <p>
-                                        If youi would like to apply to be a broadcaster for NGNTV you can submit an application to do so by <a href="" target="_new">clicking here</a>
-                                    </p> -->
-                                    <br/>
-                                    <!-- <img data-twitch-channel="cybergig22"><br/> -->
-                                    <iframe src="http://streambadge.com/twitch/?username=cybergig22&theme=dark" style="width:100%;height:64px;border:0;"></iframe>
-                                    <br/>
-                                    <br/>
-                                </div>
-                                <div id="cybergig22" class="tab-pane fade">
-                                    <h2>Cybergig22</h2>
-                                    <br/>
-                                    <p>
-                                        <iframe src="https://player.twitch.tv/?channel=cybergig22" frameborder="0" scrolling="no" height="278" width="510" muted="true"></iframe>
-                                        <iframe src="https://webchat.restream.io?userId=81163&token=HRE8KkRnYtTqxedpMeCn" frameborder="0" scrolling="no" height="278" width="370" muted="true"></iframe>
-                                    </p>
-                                    <br/>
-                                    <br/>
-                                </div>
-                                <!--
-                                <div id="cysyoutube" class="tab-pane fade">
-                                    <h2>Cybergig22's Youtube</h2>
-                                    <br/>
-                                    <p>
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/oVhA8mhdCvg" frameborder="0" allowfullscreen></iframe>
-
-
-                                        <iframe src="https://player.twitch.tv/?channel=cybergig22" frameborder="0" scrolling="no" height="278" width="510" muted="true"></iframe>
-                                        <iframe src="https://webchat.restream.io?userId=81163&token=HRE8KkRnYtTqxedpMeCn" frameborder="0" scrolling="no" height="278" width="370" muted="true"></iframe>
-
-                                    </p>
-                                    <br/>
-                                    <br/>
-                                </div> -->
-                            </div>
+                    <br/>
+                    <br/>
+                    <div class="container-fluid">
+                      <div class="row">
+                        Sort By:<br/>
+                        <a href="+gametitle ">Game Title <span class="glyphicon glyphicon-sort"></span> </a>
+                      <br/>
+                      <br/>
+                        <select ng-model="sortgames">
+                          <option value="+gametitle ">Game Title <span class="glyphicon glyphicon-sort"></span> </option>
+                          <option value="+gamerelease ">Release Date <span class="glyphicon glyphicon-sort"></span> </option>
+                        </select>
+                        <br/>
+                        <br/>
+                        <div class="col-sm-3 " style="background-color:white; " ng-repeat="game in gametitles | toArray | orderBy:sortgames:reverse ">
+                          <div style="border:1;border-bottom-color: #000000; "> <img src="{{game.gamethumb}}" /> </div>
+                          <div style="border:1;border-bottom-color: #000000; "> {{game.gametitle}} </div>
+                          <div style="border:1;border-bottom-color: #000000; "> {{game.gamedesc}} </div>
+                          <div style="border:1;border-bottom-color: #000000; "> {{game.gamerelease | date: "MM/dd/yyyy" }} </div>
                         </div>
-                    </p>
+                        <br/>
+                        <br/>
+                      </div>
+                      <br/>
+                      <br/>
+                      <div class="row">
+                        Sort By:
+                        <select ng-model="sortproducts">
+                          <option value="+prodtitle ">Product</option>
+                          <option value="+prodrelease ">Release Date</option>
+                        </select>
+                        <br/>
+                        <br/>
+                        <div class="col-sm-3 " style="background-color:white; " ng-repeat="product in products | toArray | orderBy:sortproducts ">
+                          <div style="border:1;border-bottom-color: #000000; "> <img src="{{product.prodthumb}}" /> </div>
+                          <div style="border:1;border-bottom-color: #000000; "> {{product.prodtitle}} </div>
+                          <div style="border:1;border-bottom-color: #000000; "> {{product.proddesc}} </div>
+                          <div style="border:1;border-bottom-color: #000000; "> {{product.prodrelease | date: "MM/dd/yyyy" }} </div>
+                        </div>
+                      </div>
+                    </div>
                     <br>
                     <br> </div>
             </main>
@@ -241,8 +217,8 @@
                     <br>
                     <br> </div>
             </footer>
+            </div>
         </div>
-    </div>
 </body>
 
 </html>

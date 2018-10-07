@@ -32,7 +32,7 @@ angular.module("devcontent", [])
       2: {
         gamethumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsNlkRGiOop_M7mpxvfiVT9S8_P0PiBRdHDYl3lQdnO8Y0zWHrSA",
         gametitle: "Project Gekisen",
-        gamedesc: "Video game I am working on 2",
+        gamedesc: "Old video game that was brought to us when we first started out, it is on hold for now till a time when / if we decide to pick it up and re-release it somewhere to make it fit a more modern 2D playable mannar. May still remain multiplayer but for now it remains closed and shut down. ",
         gamerelease: new Date("To Be Announced"),
         gameid: 2
       }, //gamerelease: new Date("November 23, 1986")
@@ -45,15 +45,15 @@ angular.module("devcontent", [])
       }, //gamerelease: new Date("November 23, 1986")
       4: {
         gamethumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsNlkRGiOop_M7mpxvfiVT9S8_P0PiBRdHDYl3lQdnO8Y0zWHrSA",
-        gametitle: "Game Title 4",
-        gamedesc: "Game Description 4",
+        gametitle: "Project Get Cats",
+        gamedesc: "This project is on going, on hold for now while some details are being worked out, change in administration of Null Projects may decapritate this project out of the project list. ",
         gamerelease: new Date("To Be Announced"),
         gameid: 4
       },
       5: {
         gamethumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsNlkRGiOop_M7mpxvfiVT9S8_P0PiBRdHDYl3lQdnO8Y0zWHrSA",
-        gametitle: "Game Title 5",
-        gamedesc: "Game Description 5",
+        gametitle: "Project Salem",
+        gamedesc: "Unique video game taking basis on some factual history in regards to the salem witch trials but with a twist with its own ficitional story. While it may have have some factual events in reference to what happened, not everything historically correct here. ",
         gamerelease: new Date("To Be Announced"),
         gameid: 5
       },
