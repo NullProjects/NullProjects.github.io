@@ -45,14 +45,14 @@ angular.module("devcontent", [])
       }, //gamerelease: new Date("November 23, 1986")
       4: {
         gamethumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsNlkRGiOop_M7mpxvfiVT9S8_P0PiBRdHDYl3lQdnO8Y0zWHrSA",
-        gametitle: "Game Title 4",
-        gamedesc: "Game Description 4",
+        gametitle: "Project Salem",
+        gamedesc: "Project Salem",
         gamerelease: new Date("To Be Announced"),
         gameid: 4
       },
       5: {
         gamethumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsNlkRGiOop_M7mpxvfiVT9S8_P0PiBRdHDYl3lQdnO8Y0zWHrSA",
-        gametitle: "Game Title 5",
+        gametitle: "Project GetCats",
         gamedesc: "Game Description 5",
         gamerelease: new Date("To Be Announced"),
         gameid: 5

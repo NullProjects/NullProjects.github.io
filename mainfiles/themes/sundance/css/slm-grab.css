@@ -1,0 +1,57 @@
+/***************************************************************************************
+****************************************************************************************
+****    	Copyright by Cybergig22, Null Projects & SZE and the NP Team              ****
+****    	This website is free to use by other people just be sure to               ****
+****    	leave this copyright notice up here a good place to get this template     ****
+****    	from for your own github or other website is @                            ****
+****							  		http://nullprojects.github.io/dev/GitCMS                    ****
+****************************************************************************************
+***************************************************************************************/
+
+/********************************************************
+*********            MAIN BODY SECTION           ********
+*********************************************************/
+/* Body CSS */
+body {
+/*    background-color: #ccffcc;
+*/
+    background-color: #ffffff;
+    background: -moz-linear-gradient(0deg, #FEFEFE 0, #247BBD 100%);/* FF3.6+ */
+    background: -webkit-gradient(linear, 0deg, color-stop(0, FEFEFE), color-stop(100%, 247BBD));/* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(0deg, #FEFEFE 0, #247BBD 100%);/* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(0deg, #FEFEFE 0, #247BBD 100%);/* Opera 11.10+ */
+    background: -ms-linear-gradient(0deg, #FEFEFE 0, #247BBD 100%);/* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1'); /* for IE */
+    background: linear-gradient(0deg, #FEFEFE 0, #247BBD 100%);/* W3C */
+    background-repeat:none;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+    font-size:12px;
+    text-align:center;
+}
+.main-slm {
+    padding-left:auto;
+    padding-right:auto;
+    padding-top:0;
+    padding-bottom:0;
+}
+.main-wrap-slm {
+    width:60%;
+    border:5px;
+    border-style:solid;
+    text-align:center;
+}
+.imgwrap{
+  width:450px;
+  height:450px;
+  border-style:inset;
+
+}
+.content-select-wrap{
+  text-align:center;
+
+}
+.footerwrap{
+  text-align: center;
+}

@@ -6,7 +6,7 @@
 <!--							  		http://nullprojects.github.io/dev/GitCMS             -->
 <!-- ------------------------------------------------------------------------------ -->
 <!DOCTYPE html>
-<html lang="en-us">
+<html ng-app="devcontent" lang="en-us">
 <!-- <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-us"> -->
 
 <head>
@@ -29,9 +29,9 @@
     <!-- ------------------------------------------------------------------------------ -->
     <!-- Link Section / CSS Section -->
     <!-- ------------------------------------------------------------------------------ -->
-    <link id="maincss" rel="stylesheet" type="text/css" href="../mainfiles/themes/sundance/css/main-div.css">
-    <link id="maincss" rel="stylesheet" type="text/css" href="../mainfiles/themes/sundance/css/dropdown-div.css">
-    <link id="dropdowncss" rel="stylesheet" type="text/css" href="../mainfiles/themes/sundance/css/navbarcss-div.css">
+    <link id="maincss" rel="stylesheet" type="text/css" href="../../mainfiles/themes/sundance/css/main-div.css">
+    <link id="maincss" rel="stylesheet" type="text/css" href="../../mainfiles/themes/sundance/css/dropdown-div.css">
+    <link id="dropdowncss" rel="stylesheet" type="text/css" href="../../mainfiles/themes/sundance/css/navbarcss-div.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- ------------------------------------------------------------------------------ -->
     <!-- End Link Section / CSS Section -->
@@ -43,36 +43,36 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-    <script src="../mainfiles/javascript/contact-content.js"></script>
+    <script src="../../mainfiles/javascript/support-page.js"></script>
     <!-- ------------------------------------------------------------------------------ -->
     <!-- End JavaScript Section -->
     <!-- ------------------------------------------------------------------------------ -->
 </head>
 
-<body>
+<body ng-controller="dev-control">
     <div class="mainwrap" align="center">
         <div class="mainwrap-c">
             <header>
                 <nav>
                     <ul class="socialbar" style="height: 47px;">
                         <li class="socialbar-content">
-                            <a href="#"><img src="..\mainfiles\themes\sundance\images\socialbar\facebook-social.png" class="soocial-icons">
+                            <a href="#"><img src="..\..\mainfiles\themes\sundance\images\socialbar\facebook-social.png" class="soocial-icons">
                             </a>
                         </li>
                         <li class="socialbar-content">
-                            <a href="#"><img src="..\mainfiles\themes\sundance\images\socialbar\twitter-social.png" class="soocial-icons">
+                            <a href="#"><img src="..\..\mainfiles\themes\sundance\images\socialbar\twitter-social.png" class="soocial-icons">
                             </a>
                         </li>
                         <li class="socialbar-content">
-                            <a href="#"><img src="..\mainfiles\themes\sundance\images\socialbar\tumblr-social.png" class="soocial-icons">
+                            <a href="#"><img src="..\..\mainfiles\themes\sundance\images\socialbar\tumblr-social.png" class="soocial-icons">
                             </a>
                         </li>
                         <li class="socialbar-content">
-                            <a href="#"><img src="..\mainfiles\themes\sundance\images\socialbar\github-social.png" class="soocial-icons">
+                            <a href="#"><img src="..\..\mainfiles\themes\sundance\images\socialbar\github-social.png" class="soocial-icons">
                             </a>
                         </li>
                         <li class="socialbar-content">
-                            <a href="#"><img src="..\mainfiles\themes\sundance\images\socialbar\steam-social.png" class="soocial-icons">
+                            <a href="#"><img src="..\..\mainfiles\themes\sundance\images\socialbar\steam-social.png" class="soocial-icons">
                             </a>
                         </li>
                         <li class="socialbar-login"> <a href="#" style="height: 47px;"><span class="glyphicon glyphicon-thumbs-up"></span> Sign Up</a>
@@ -81,26 +81,26 @@
                         </li>
                     </ul>
                 </nav>
-                <div class="logo-img-wrap"> <img src="..\mainfiles\themes\sundance\images\header-images\NPLogo.png" alt="Null Projects" class="logo-img"> </div>
+                <div class="logo-img-wrap"> <img src="..\..\mainfiles\themes\sundance\images\header-images\NPLogo.png" alt="Null Projects" class="logo-img"> </div>
                 <div>
                     <nav>
                         <ul class="navbar-ul">
                             <!-- navbar-ul -->
-                            <li class="navbar-content"><a href="../index.html" style="width: 93px;">HOME</a>
+                            <li class="navbar-content"><a href="../../index.html" style="width: 93px;">HOME</a>
                             </li>
-                            <li class="navbar-content"><a href="../dev/">DEVELOPMENT</a>
+                            <li class="navbar-content"><a href="../../dev/">DEVELOPMENT</a>
                             </li>
-                            <li class="navbar-content"><a href="../shop/" style="width: 97px;">SHOP</a>
+                            <li class="navbar-content"><a href="../../shop/" style="width: 97px;">SHOP</a>
                             </li>
-                            <li class="navbar-content"><a href="../broadcasting/">BROADCASTING</a>
+                            <li class="navbar-content"><a href="../../broadcasting/">BROADCASTING</a>
                             </li>
-                            <li class="navbar-content"><a href="../community/">COMMUNITY</a>
+                            <li class="navbar-content"><a href="../../community/">COMMUNITY</a>
                             </li>
-                            <li class="navbar-content"><a href="../about/">ABOUT US</a>
+                            <li class="navbar-content"><a href="../../about/">ABOUT US</a>
                             </li>
-                            <li class="navbar-content nav-active"><a href="../contact/">CONTACT US</a>
+                            <li class="navbar-content"><a href="../../contact/">CONTACT US</a>
                             </li>
-                            <li class="navbar-content"><a href="../donate/" style="width: 90px;">DONATE</a>
+                            <li class="navbar-content"><a href="../../donate/" style="width: 90px;">DONATE</a>
                             </li>
                         </ul>
                     </nav>
@@ -109,67 +109,63 @@
             <main>
                 <div class="main-content-wrap">
                     <br>
-                    <br>
                     <div class="alert alert-warning pulsate">
                       <strong>Warning</strong> This website is under construction, please check back later to see if &amp; when the website is ready :).
                     </div>
-                    <!--
-                    <p class="uc02"> This website is under construction, please check back later to see if &amp; when the website is ready :) </p>
-                  -->
-                    <br>
-                    <p class="content-container-wrap">
-                        <div class="container-fluid">
-                            <p>Not everything is up and running as of yet but after a long while of not being update, we do have a discord with acouple of members that you can get into contact with if you have any questions in general as to what is going on and such. </p>
-                            <p>You can reach our discord server through two different means.. through my <a href="https://www.twitch.tv/cybergig22" target=_new> twitch page</a>, or the following URL: <a href="https://discord.gg/jPHk9eY" target=_new> Click Me</a> for a semi-direct passage to the discord channel." </p>
-                            <ul>
-                              <li>@cybergig22</li><br/>
-                              <li>@koenorotto</li><br/>
-                              <li>@Mini</li><br/>
-                              <li>@Crimson Razor</li><br/>
-                            </ul>
-                            <p>These people you can contact within the discord community if you have any questions or concerns as to what we are doing, working on or time frames and such. For now, only two of us work at any givn specific time so things may appear to be slow going but things are progressing.</p>
-                            <p>New Line</p>
+                    <br/>
+                    <div class="container-fluid">
+                      <div class="row">
+                        <br/>
+                        <div class="col-sm-3 " style="background-color:white; " ng-repeat="slink in sl | toArray | orderBy:sid:reverse">
+                          <div style="border:1;border-bottom-color: #000000; "> {{slink.lt}} </div>
+                          <div style="border:1;border-bottom-color: #000000; "> {{slink.ld}} </div>
+                          <div style="border:1;border-bottom-color: #000000; "> {{slink.lg}} </div>
                         </div>
-                    </p>
-                    <br>
-                    <br> </div>
+                        <br/>
+                        <br/>
+                      </div>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                    </div>
             </main>
             <footer>
                 <nav>
                     <ul class="socialbar-b">
                         <li class="socialbar-b-content" style="width: 125px;"> <strong><span>About US:</span></strong>
-                            <a href="../about/">Information</a>
-                            <a href="../donate/">Donate</a>
-                            <a href="../contact/s/">Support</a>
-                            <a href="">Projects</a></li>
+                            <a class="navbar-content" href="../../about/">Information</a>
+                            <a class="navbar-content" href="../../donate/">Donate</a>
+                            <a class="navbar-content nav-active" href="../../contact/s/" >Support</a>
+                            <a class="navbar-content" href="">Projects</a></li>
                         <li class="socialbar-b-content" style="width: 125px;"> <strong><span>Community:</span></strong>
-                            <a href="http://npdevforum.boards.net/" target="_new">Forum</a>
-                            <a href="../community/c/">Chat</a>
-                            <a href="../community/g/">Groups</a>
-                            <a href="../community/b/">Blog</a></li>
+                            <a class="navbar-content" href="http://npdevforum.boards.net/" target="_new">Forum</a>
+                            <a class="navbar-content" href="../../community/c/">Chat</a>
+                            <a class="navbar-content" href="../../community/g/">Groups</a>
+                            <a class="navbar-content" href="../../community/b/">Blog</a></li>
                         <li class="socialbar-b-content" style="width: 125px;"> <strong><span>Careers:</span></strong>
-                            <a href="../careers/">Information</a>
-                            <a href="../careers/benifits.html">Benifits</a>
-                            <a href="../careers/jobs.html">Jobs</a>
-                            <a href="../careers/apply.html">Apply</a></li>
+                            <a class="navbar-content" href="../../careers/">Information</a>
+                            <a class="navbar-content" href="../../careers/benifits.html">Benifits</a>
+                            <a class="navbar-content" href="../../careers/jobs.html">Jobs</a>
+                            <a class="navbar-content" href="../../careers/apply.html">Apply</a></li>
                         <li class="socialbar-b-right">
-                            <a href="#"><img src="..\mainfiles\themes\sundance\images\socialbar\steam-social.png" class="soocial-icons">
+                            <a href="#"><img src="..\..\mainfiles\themes\sundance\images\socialbar\steam-social.png" class="soocial-icons">
                             </a>
                         </li>
                         <li class="socialbar-b-right">
-                            <a href="#"><img src="..\mainfiles\themes\sundance\images\socialbar\github-social.png" class="soocial-icons">
+                            <a href="#"><img src="..\..\mainfiles\themes\sundance\images\socialbar\github-social.png" class="soocial-icons">
                             </a>
                         </li>
                         <li class="socialbar-b-right">
-                            <a href="#"><img src="..\mainfiles\themes\sundance\images\socialbar\tumblr-social.png" class="soocial-icons">
+                            <a href="#"><img src="..\..\mainfiles\themes\sundance\images\socialbar\tumblr-social.png" class="soocial-icons">
                             </a>
                         </li>
                         <li class="socialbar-b-right">
-                            <a href="#"><img src="..\mainfiles\themes\sundance\images\socialbar\twitter-social.png" class="soocial-icons">
+                            <a href="#"><img src="..\..\mainfiles\themes\sundance\images\socialbar\twitter-social.png" class="soocial-icons">
                             </a>
                         </li>
                         <li class="socialbar-b-right">
-                            <a href="#"><img src="..\mainfiles\themes\sundance\images\socialbar\facebook-social.png" class="soocial-icons">
+                            <a href="#"><img src="..\..\mainfiles\themes\sundance\images\socialbar\facebook-social.png" class="soocial-icons">
                             </a>
                         </li>
                     </ul>
@@ -179,8 +175,7 @@
                     <br>
                     <br> </div>
             </footer>
+            </div>
         </div>
-    </div>
 </body>
-
 </html>
